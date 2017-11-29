@@ -5,8 +5,9 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!-- Import semantic.css -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
-	<!-- Import jquery.min.js -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+
+	 <!-- Import jquery.min.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- Import semantic.min.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
@@ -14,70 +15,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
-  <body>
-  	<div class="navbar-fixed">
+  <body id="page-top">
+  	<div class="navbar-fixed" id="navbar">
   		<nav>
 	    	<div class="nav-wrapper">
-	    		<a href="#!" class="brand-logo">Logo</a>
+	    		<a href="#page-top" class="brand-logo">Logo</a>
 	    		<ul class="right hide-on-med-and-down">
-			    	<li><a href="sass.html"><i class="material-icons left">search</i>Link with Left Icon</a></li>
-	        		<li><a href="badges.html"><i class="material-icons right">view_module</i>Link with Right Icon</a></li>
+			    	<li><a href="#parallax1"><i class="material-icons right">looks_one</i>Parallax</a></li>
+            <li><a href="#parallax2"><i class="material-icons right">looks_two</i>Parallax</a></li>
+            <li><a href="#parallax3"><i class="material-icons right">looks_3</i>Parallax</a></li>
+            <li><a href="#parallax4"><i class="material-icons right">looks_4</i>Parallax</a></li>
+            <li><a href="#contact"><i class="material-icons left">call</i>Contact</a></li>
 	    		</ul>
-			</div>
-		</nav>
-	</div>
+		  	</div>
+		  </nav>
+	 </div>
 
     <div class="parallax-container">
       <div class="parallax"><img src="img/Flyff8.jpg"></div>
     </div>
 
-    <div class="section white">
-      <div class="row container">
-        <h2 class="header">Parallax</h2>
-        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-      </div>
+    <section id="parallax1">
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header">Parallax</h2>
+          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
 
-      <div class="carousel">
-        <a class="carousel-item" href="#one!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1508288155660-625e378b3fc9?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
-        <a class="carousel-item" href="#two!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1483992233021-1801812fdacb?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
-        <a class="carousel-item" href="#three!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1508288155660-625e378b3fc9?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
-        <a class="carousel-item" href="#four!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1508288155660-625e378b3fc9?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
-        <a class="carousel-item" href="#five!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1508288155660-625e378b3fc9?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+        <div class="carousel">
+          <a class="carousel-item" href="#one!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1508288155660-625e378b3fc9?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+          <a class="carousel-item" href="#two!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1483992233021-1801812fdacb?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+          <a class="carousel-item" href="#three!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1508288155660-625e378b3fc9?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+          <a class="carousel-item" href="#four!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1508288155660-625e378b3fc9?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+          <a class="carousel-item" href="#five!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="https://images.unsplash.com/photo-1508288155660-625e378b3fc9?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"></a>
+        </div>
       </div>
-    </div>
+    </section>
 
     <div class="parallax-container">
       <div class="parallax"><img src="img/Flyff11.jpg"></div>
     </div>
 
-    <div class="section white">
-      <div class="row container">
-        <h2 class="header">Parallax2</h2>
-        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    <section id="parallax2">
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header">Parallax2</h2>
+          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
       </div>
-    </div>
+    </section>
 
     <div class="parallax-container">
       <div class="parallax"><img src="img/Test.png"></div>
     </div>
 
-    <div class="section white">
-      <div class="row container">
-        <h2 class="header">Parallax3</h2>
-        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    <section id="parallax3">
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header">Parallax3</h2>
+          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
       </div>
-    </div>
+    </section>
 
     <div class="parallax-container">
         <div class="parallax"><img src="img/Flyff9.jpg"></div>
     </div>
 
-    <div class="section white">
-      <div class="row container">
-        <h2 class="header">Parallax3</h2>
-        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    <section id="parallax4">
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header">Parallax4</h2>
+          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
       </div>
-    </div>
+    </section>
 
     <div class="parallax-container">
         <div class="parallax"><img src="img/Flyff12.jpg"></div>
@@ -85,7 +97,7 @@
 
     <div class="section white">
       <div class="row container">
-        <h2 class="header">Parallax3</h2>
+        <h2 class="header">Parallax5</h2>
         <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
       </div>
     </div>
@@ -96,7 +108,7 @@
 
     <div class="section white">
       <div class="row container">
-        <h2 class="header">Parallax3</h2>
+        <h2 class="header">Parallax6</h2>
         <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
       </div>
     </div>
@@ -107,7 +119,7 @@
 
     <div class="section white">
       <div class="row container">
-        <h2 class="header">Parallax3</h2>
+        <h2 class="header">Parallax7</h2>
         <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
       </div>
     </div>
@@ -118,7 +130,7 @@
 
     <div class="section white">
       <div class="row container">
-        <h2 class="header">Parallax3</h2>
+        <h2 class="header">Parallax8</h2>
         <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
       </div>
     </div>
@@ -127,7 +139,7 @@
         <div class="parallax"><img src="img/ship.jpg"></div>
     </div>
 
-    <footer class="page-footer">
+    <footer class="page-footer" id="contact">
         <div class="container">
     	    <div class="row">
     	        <div class="col l4 s12">
@@ -171,11 +183,21 @@
       $(document).ready(function(){
         $('.parallax').parallax();
       });
+
       $(document).ready(function(){
         $('.carousel').carousel();
       });
+
       $(document).ready(function(){
         $('.materialboxed').materialbox();
+      });
+
+      $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top - document.getElementById('navbar').offsetHeight + 1
+        }, 500);
       });
     </script>
   </body>
