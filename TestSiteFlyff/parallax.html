@@ -240,6 +240,11 @@ Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, a
         $('.slider').slider({interval:4000});
       });
 
+      $('#navbar ul li').click(function () {
+        $('#navbar ul li').removeClass('active');
+        $(this).addClass('active');
+      });
+
       $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
 
