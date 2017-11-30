@@ -3,6 +3,26 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+ .custom-navbar ul li a {
+     background: #67497a; /* Old browsers */
+     background: linear-gradient( #67497a,#946ab1 ) repeat scroll 0 0 #67497a !important;
+     background: -moz-linear-gradient( #67497a,#946ab1 ) repeat scroll 0 0 #67497a !important; /* FF3.6+ */
+     background: -webkit-linear-gradient( #67497a,#946ab1 ) repeat scroll 0 0 #67497a !important; /* Chrome10+,Safari5.1+ */
+     background: -o-linear-gradient( #67497a,#946ab1 ) repeat scroll 0 0 #67497a !important; /* Opera 11.10+ */
+     background: -ms-linear-gradient( #67497a,#946ab1 ) repeat scroll 0 0 #67497a !important; /* IE10+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67497a', endColorstr='#946ab1',GradientType=0 ); /* IE6-9 */
+ }
+
+ .custom-navbar ul li a.ui-btn-active {
+     background: linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important;
+     background: #67497a; /* Old browsers */
+     background: linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important; /* FF3.6+ */
+     background: -webkit-linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important; /* Chrome10+,Safari5.1+ */
+     background: -o-linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important; /* Opera 11.10+ */
+     background: -ms-linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important; /* IE10+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5393C5', endColorstr='#6FACD5',GradientType=0 ); /* IE6-9 */
+ }
+ 
 .materialize-red {
   background-color: #e51c23 !important;
 }
