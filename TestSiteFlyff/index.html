@@ -21,23 +21,23 @@
 
     <!-- Barre de navigation sur le site -->
   <body id="page-top">
-  
-  	<div data-role="navbar" id="navbar" class="custom-navbar">
+
+  	<div data-role="navbar" id="navbar" class="navbar-fixed">
   		<nav>
 	    	<div class="nav-wrapper">
 	    		<a href="#page-top" class="brand-logo"><img src="img/note.jpg" width="auto" height="64"></a>
 	    		<ul class="right hide-on-med-and-down">
-			    	<li><a href="#Accueil"><i class="material-icons right">home</i>Accueil</a></li>
+			    	<!-- <li><a href="#Accueil"><i class="material-icons right">home</i>Accueil</a></li> -->
             <li><a href="#Actualitees"><i class="material-icons right">announcement</i>Actualitées</a></li>
             <li><a href="#Information"><i class="material-icons right">assessment</i>Infos Serveur</a></li>
             <li><a href="#Compte"><i class="material-icons right">account_box</i>Compte</a></li>
             <li><a href="#Rejoindre"><i class="material-icons right">person_add</i>Nous Rejoindre</a></li>
             <li><a href="#Boutique"><i class="material-icons right">shopping_cart</i>Boutique</a></li>
-            <li><a href="#Telecharger"><i class="material-icons right">cloud_download</i>Télécharger</a></li>
+            <!-- <li><a href="#Telecharger"><i class="material-icons right">cloud_download</i>Télécharger</a></li> -->
             <li><a href="#Forum"><i class="material-icons right">chat</i>Forum</a></li>
             <li><a href="#Equipe"><i class="material-icons right">perm_identity</i>L'Équipe</a></li>
-            <li><a href="#Support"><i class="material-icons right">bug_report</i>Support</a></li>
-            <li><a href="#Contact"><i class="material-icons right">call</i>Nous Contacter</a></li>
+            <!-- <li><a href="#Support"><i class="material-icons right">bug_report</i>Support</a></li> -->
+            <!-- <li><a href="#Contact"><i class="material-icons right">call</i>Nous Contacter</a></li> -->
 	    		</ul>
 		  	</div>
 		  </nav>
@@ -355,6 +355,18 @@ Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, a
         $('html, body').animate({
           scrollTop: $($.attr(this, 'href')).offset().top - document.getElementById('navbar').offsetHeight + 1
         }, 500);
+
+        $('.dropdown-button').dropdown({
+          inDuration: 300,
+          outDuration: 225,
+          constrainWidth: false, // Does not change width of dropdown to that of the activator
+          hover: true, // Activate on hover
+          gutter: 0, // Spacing from edge
+          belowOrigin: false, // Displays dropdown below the button
+          alignment: 'left', // Displays dropdown with edge aligned to the left of button
+          stopPropagation: false // Stops event propagation
+        }
+      )
       });
     </script>
   </body>
