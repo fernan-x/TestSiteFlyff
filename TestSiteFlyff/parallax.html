@@ -68,10 +68,44 @@ Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, a
 
     <section id="Actualitees">
       <div class="section white">
+
         <div class="row container">
-          <h2 class="header">Parallax2</h2>
-          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+          <h2 class="header">Actualitées</h2>
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="https://images8.alphacoders.com/468/thumb-1920-468739.jpg">
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="https://wallpaperhdzone.com/wp-content/uploads/2016/06/ultra-hd-wallpapers9.jpg">
+                <div class="caption left-align">
+                  <h3>Left Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="http://hdwallpaper20.com/wp-content/uploads/2016/07/ultra-hd-wallpapers18-1024x576.jpg"> 
+                <div class="caption right-align">
+                  <h3>Right Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="http://wallup.net/wp-content/uploads/2017/03/16/248024-road-mountain-snow-clouds.jpg">
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+        
+
       </div>
     </section>
 
@@ -200,6 +234,10 @@ Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, a
 
       $(document).ready(function(){
         $('.materialboxed').materialbox();
+      });
+
+      $(document).ready(function(){
+        $('.slider').slider({interval:4000});
       });
 
       $(document).on('click', 'a[href^="#"]', function (event) {
