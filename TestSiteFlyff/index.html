@@ -76,14 +76,14 @@
         </div>
         <!--  liste défilante Image section accueil  -->
         <div class="carousel">
-          <a class="carousel-item" data-cindex="1" href="#one!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="img/mage.png"></a>
-          <a class="carousel-item" data-cindex="2" href="#two!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="img/image1.png"></a>
-          <a class="carousel-item" data-cindex="3" href="#three!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="img/image2.png"></a>
-          <a class="carousel-item" data-cindex="4" href="#four!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="img/image3.png"></a>
-          <a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="img/image4.png"></a>
-          <a class="carousel-item" data-cindex="6" href="#five!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="img/image5.png"></a>
-          <a class="carousel-item" data-cindex="7" href="#five!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="img/image6.png"></a>
-          <a class="carousel-item" data-cindex="8" href="#five!"><img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="200" src="img/image7.png"></a>
+          <a class="carousel-item" data-cindex="1" href="#five!"><img class="materialboxed" data-caption="classe Spadassin"  src="img/H.png"></a>
+          <a class="carousel-item" data-cindex="4" href="#five!"><img class="materialboxed" data-caption="chasse Templier"  src="img/Doloire.png"></a>
+          <a class="carousel-item" data-cindex="3" href="#five!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/Arc.png"></a>
+          <a class="carousel-item" data-cindex="6" href="#five!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/Yoyo.png"></a>
+          <a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/Sceptre.png"></a>
+          <a class="carousel-item" data-cindex="7" href="#five!"><img class="materialboxed" data-caption="classe Envouteur"  src="img/Baguette.png"></a>
+          <a class="carousel-item" data-cindex="2" href="#five!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/Baton.png"></a>
+          <a class="carousel-item" data-cindex="8" href="#five!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/Poing.png"></a>
         </div>
       </div>
     </section>
@@ -369,18 +369,12 @@ Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, a
               	<div class="col l4 s12">
 	    	        <h4 class="white-text">Connect</h4>
                 	<button class="ui circular facebook icon button"> <!-- https://www.facebook.com/AelinaOnline/ -->
-						<i class="facebook icon"></i>
+						<i class="facebook icon"</i>
 					</button>
-					<button class="ui circular twitter icon button">
+					<button class="ui circular twitter icon button"> <!--https://twitter.com/AelinaOnline -->
 						<i class="twitter icon"></i>
 					</button>
-					<button class="ui circular linkedin icon button">
-				  		<i class="linkedin icon"></i>
-					</button>
-					<button class="ui circular google plus icon button">
-				  		<i class="google plus icon"></i>
-					</button>
-              	</div>
+            </div>
               	<div class="col l4 s12">
 	    	        <h4 class="white-text">Join the discussion</h4>
                 	<p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>Maecenas vulputate libero sit amet tempor tristique.<br/> Nunc blandit aliquam rutrum. Mauris non varius neque.<br/></p>
@@ -414,28 +408,29 @@ Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, a
 		changeSlide = function(index) {
 			switch(index) {
 			    case 1:
-					document.getElementById("content").innerHTML = "1 - Une meuf avec un balai.";
+					document.getElementById("content").innerHTML ="Description Spadassin"
+          //"<div class='row'><div class='col s4'><img src='img/arca_g.png'/></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div></div>";
 			        break;
 			    case 2:
-					document.getElementById("content").innerHTML = "2 - Un pretre je suppose?";
+					document.getElementById("content").innerHTML = "Description Arcaniste";
 			        break;
 	 			case 3:
-					document.getElementById("content").innerHTML = "3 - Une meuf avec des flammes, une sorciere?";
+					document.getElementById("content").innerHTML = "Description Arbalétrier";
 			        break;
 			    case 4:
-					document.getElementById("content").innerHTML = "4 - Plutot badass style assassin.";
+					document.getElementById("content").innerHTML = "Description Templier";
 					break;
 				case 5:
-					document.getElementById("content").innerHTML = "5 - Encore un autre avec des flammes!";
+					document.getElementById("content").innerHTML = "Description Primat";
 					break;
 				case 6:
-					document.getElementById("content").innerHTML = "6 - La blonde qui meurt tout le temps en premier dans les films.";
+					document.getElementById("content").innerHTML = "Description Sylphide";
 					break;
 				case 7:
-					document.getElementById("content").innerHTML = "7 - Le paladin de base pas degueux!";
+					document.getElementById("content").innerHTML = "Description Envoûteur";
 					break;
 				case 8:
-					document.getElementById("content").innerHTML = "8 - Le mec a la hache.";
+					document.getElementById("content").innerHTML = "Description Chanoine";
 					break;
 			    default:
 			        document.getElementById("content").innerHTML = "Clique sur un personnage pour en apprendre davantage";

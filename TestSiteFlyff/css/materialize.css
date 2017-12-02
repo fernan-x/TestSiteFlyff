@@ -22,7 +22,15 @@
      background: -ms-linear-gradient(#5393C5, #6FACD5) repeat scroll 0 0 #5393C5 !important; /* IE10+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5393C5', endColorstr='#6FACD5',GradientType=0 ); /* IE6-9 */
  }
- 
+
+ .imgleft {
+float:left;
+}
+
+.imgright {
+float:right;
+}
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
