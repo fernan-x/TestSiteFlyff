@@ -20,10 +20,10 @@
 }
 
 #Presentation {
-  font-family: kelmscottromanregular;
-  font-size: large;
-  text-align: center;
-  border: 2px #424242 ridge;
+	font-family: kelmscottromanregular;
+  	font-size: large;
+  	text-align: center;
+  	border: 2px #424242 ridge;
 }
 
 #CLasses {
@@ -31,26 +31,27 @@
 }
 
 strong {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .titre {
-  font-weight: normal;
-  font-size: x-large;
-  font-style: oblique;
-  text-decoration: underline;
+  	font-weight: normal;
+  	font-size: x-large;
+  	font-style: oblique;
+  	text-decoration: underline;
 }
 
 .signature {
-  font-size: 95%;
-  font-style: oblique;
-  text-align: right;
-  margin-right: 20%;
+  	font-size: 95%;
+  	font-style: oblique;
+  	text-align: right;
+  	margin-right: 20%;
 }
 
 .pang {
-    float: right;
-    width: 15%;
-    height: 20%;
-    margin-right: 0%;
+	background-color: #eee;
+  	background-image: url(../img/pang_inc.png);
+  	background-repeat: no-repeat;
+  	box-sizing: border-box;
+  	background-position: right bottom;
 }
