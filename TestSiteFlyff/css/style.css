@@ -5,3 +5,48 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@font-face {
+    font-family: 'kelmscottromanregular';
+    src: url('KELMSCOT-webfont.eot');
+    src: url('KELMSCOT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('KELMSCOT-webfont.woff2') format('woff2'),
+         url('KELMSCOT-webfont.woff') format('woff'),
+         url('KELMSCOT-webfont.ttf') format('truetype'),
+         url('KELMSCOT-webfont.svg#kelmscottromanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#Accueil {
+  font-family: kelmscottromanregular;
+  font-size: large;
+  text-align: center;
+  border: 4px #424242 groove;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.titre {
+  font-weight: normal;
+  font-size: x-large;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.signature {
+  font-size: 95%;
+  font-style: oblique;
+  text-align: right;
+  margin-right: 20%;
+}
+
+.pang {
+    float: right;
+    width: 15%;
+    height: 20%;
+    margin-right: 0%;
+}
