@@ -19,11 +19,15 @@
 
 }
 
-#Accueil {
+#Presentation {
   font-family: kelmscottromanregular;
   font-size: large;
   text-align: center;
-  border: 4px #424242 groove;
+  border: 2px #424242 ridge;
+}
+
+#CLasses {
+
 }
 
 strong {
