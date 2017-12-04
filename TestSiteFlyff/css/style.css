@@ -20,7 +20,14 @@
 }
 
 #Presentation {
-	font-family: kelmscottromanregular;
+	font-family: kelmscottromanregular !important;
+  	font-size: large;
+  	text-align: center;
+  	border: 2px #424242 ridge;
+}
+
+#Classes {
+	font-family: kelmscottromanregular !important;
   	font-size: large;
   	text-align: center;
   	border: 2px #424242 ridge;
