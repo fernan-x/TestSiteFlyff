@@ -30,6 +30,18 @@
 
 }
 
+.img_right {
+background-repeat: no-repeat;
+box-sizing: border-box;
+background-position: right bottom;
+
+}
+
+.img_left {
+background-image: url(../img/classes/slayer_g.png);
+background-repeat: no-repeat;
+}
+
 strong {
 	font-weight: bold;
 }

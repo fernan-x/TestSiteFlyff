@@ -122,21 +122,22 @@
     <section id="Classe">
       <div class="section white">
 
-        <div class="row container">
+        <div class="row">
            <h2 class="header">Les modifications apportées aux classes</h2>
     <p class="grey-text text-darken-3 lighten-3" id="content"> </p>
+    <div class='col s4 img_left'><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
         <!--  liste défilante Image section accueil  -->
-        <div class="carousel">
+        <div class="carousel col s4">
           <a class="carousel-item" data-cindex="1" href="#five!"><img class="materialboxed" data-caption="classe Spadassin"  src="img/armes/H.png" alt="Hache"></a>
-          <a class="carousel-item" data-cindex="4" href="#five!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
-          <a class="carousel-item" data-cindex="6" href="#five!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
-          <a class="carousel-item" data-cindex="3" href="#five!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
-          <a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
           <a class="carousel-item" data-cindex="2" href="#five!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
+          <a class="carousel-item" data-cindex="3" href="#five!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
+          <a class="carousel-item" data-cindex="4" href="#five!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
+          <a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
+          <a class="carousel-item" data-cindex="6" href="#five!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
           <a class="carousel-item" data-cindex="7" href="#five!"><img class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
           <a class="carousel-item" data-cindex="8" href="#five!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
         </div>
-
+        <div class="col s4" id="img_right" style='background-color: orange'><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
       </div>
       </div>
     </section>
@@ -294,11 +295,17 @@ Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, a
 		changeSlide = function(index) {
 			switch(index) {
 			    case 1:
-					document.getElementById("content").innerHTML =
-          "<div class='row'><div class='col s4'><img src='img/classes/slayer_g.png' alt=''></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div><div class='col s4'><img src='img/classes/slayer_f.png'/></div></div>";
+					document.getElementById("content").innerHTML = "<p>test Spada</p>"
+          img_left.backgroundImage = "img/classes/slayer_g.png";
+          img_right.backgroundImage = "img/classes/slayer_f.png";
 			        break;
 			    case 2:
-					document.getElementById("content").innerHTML = "<div class='row'><div class='col s4'><img src='img/classes/arca_g.png' alt=''></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div><div class='col s4'><img src='img/classes/arca_f.png'/></div></div>";
+					document.getElementById("content").innerHTML = "<p>test Arca</p>";
+          img_left.backgroundImage = 'img/classes/arca_g.png';
+
+          var elmt = document.getElementById("img_right");
+
+          elmt.style.backgroundColor = 'blue';//'img/classes/arca_f.png';
 			        break;
 	 			case 3:
 					document.getElementById("content").innerHTML = "<div class='row'><div class='col s4'><img src='img/classes/arba_g.png' alt=''></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div><div class='col s4'><img src='img/classes/arba_f.png'/></div></div>";
