@@ -121,23 +121,26 @@
     <!-- Section Classes  -->
     <section id="Classe">
       <div class="section white">
-
         <div class="row">
            <h2 class="header">Les modifications apportées aux classes</h2>
     <p class="grey-text text-darken-3 lighten-3" id="content"> </p>
-    <div class='col s4 img_left'><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
         <!--  liste défilante Image section accueil  -->
-        <div class="carousel col s4">
-          <a class="carousel-item" data-cindex="1" href="#five!"><img class="materialboxed" data-caption="classe Spadassin"  src="img/armes/H.png" alt="Hache"></a>
-          <a class="carousel-item" data-cindex="2" href="#five!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
-          <a class="carousel-item" data-cindex="3" href="#five!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
-          <a class="carousel-item" data-cindex="4" href="#five!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
-          <a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
-          <a class="carousel-item" data-cindex="6" href="#five!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
-          <a class="carousel-item" data-cindex="7" href="#five!"><img class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
-          <a class="carousel-item" data-cindex="8" href="#five!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
+        <div class='col s4 center-align'>
+          <img id="img_left" src="img/classes/slayer_g.png"/>
         </div>
-        <div class="col s4" id="img_right" style='background-color: orange'><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
+        <div class="carousel col s4">
+          <a class="carousel-item" data-cindex="1" href="#one!"><img class="materialboxed" data-caption="classe Spadassin" src="img/armes/H.png" alt="Hache"></a>
+          <a class="carousel-item" data-cindex="2" href="#two!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
+          <a class="carousel-item" data-cindex="3" href="#three!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
+          <a class="carousel-item" data-cindex="4" href="#four!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
+          <a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
+          <a class="carousel-item" data-cindex="6" href="#six!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
+          <a class="carousel-item" data-cindex="7" href="#seven!"><img  class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
+          <a class="carousel-item" data-cindex="8" href="#height!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
+        </div>
+        <div class='col s4 center-align'>
+          <img id="img_right" src="img/classes/slayer_f.png"/>
+        </div>
       </div>
       </div>
     </section>
@@ -286,46 +289,72 @@ Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, a
 
       	$(document).ready(function(){
 	        $('.carousel').carousel({
+          dist:-150,shift:15,duration:100,
     			onCycleTo: function (data) {
 	    			changeSlide($(data).data('cindex'));
 				}
 			});
       	});
 
-		changeSlide = function(index) {
+		 changeSlide = function(index) {
 			switch(index) {
-			    case 1:
-					document.getElementById("content").innerHTML = "<p>test Spada</p>"
-          img_left.backgroundImage = "img/classes/slayer_g.png";
-          img_right.backgroundImage = "img/classes/slayer_f.png";
-			        break;
-			    case 2:
-					document.getElementById("content").innerHTML = "<p>test Arca</p>";
-          img_left.backgroundImage = 'img/classes/arca_g.png';
+        case 1:
+        var elem1 = document.getElementById("img_left");
+        var elem2 = document.getElementById("img_right");
 
-          var elmt = document.getElementById("img_right");
+        elem1.setAttribute("src", "img/classes/slayer_g.png");
+        elem2.setAttribute("src", "img/classes/slayer_f.png");
+          break;
+        case 2:
+          var elem1 = document.getElementById("img_left");
+          var elem2 = document.getElementById("img_right");
 
-          elmt.style.backgroundColor = 'blue';//'img/classes/arca_f.png';
-			        break;
-	 			case 3:
-					document.getElementById("content").innerHTML = "<div class='row'><div class='col s4'><img src='img/classes/arba_g.png' alt=''></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div><div class='col s4'><img src='img/classes/arba_f.png'/></div></div>";
-			        break;
-			    case 4:
-					document.getElementById("content").innerHTML = "<div class='row'><div class='col s4'><img src='img/classes/templier_g.png' alt=''></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div><div class='col s4'><img src='img/classes/templier_f.png'/></div></div>";
-					break;
-				case 5:
-					document.getElementById("content").innerHTML = "<div class='row'><div class='col s4'><img src='img/classes/primat_g.png' alt=''></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div><div class='col s4'><img src='img/classes/primat_f.png'/></div></div>";
-					break;
-				case 6:
-					document.getElementById("content").innerHTML = "<div class='row'><div class='col s4'><img src='img/classes/sylphide_g.png' alt=''></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div><div class='col s4'><img src='img/classes/sylphide_f.png'/></div></div>";
-					break;
-				case 7:
-					document.getElementById("content").innerHTML = "<div class='row'><div class='col s4'><img src='img/classes/envouteur_g.png' alt=''></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div><div class='col s4'><img src='img/classes/envouteur_f.png'/></div></div>";
-					break;
-				case 8:
-					document.getElementById("content").innerHTML = "<div class='row'><div class='col s4'><img src='img/classes/chanoine_g.png' alt=''></div><div class='col s4'><p><br/><br/><br/><br/><br/><br/><br/><br/><br/>.....</p></div><div class='col s4'><img src='img/classes/chanoine_f.png'/></div></div>";
-					break;
-			    default:
+          elem1.setAttribute("src", "img/classes/arca_g.png");
+          elem2.setAttribute("src", "img/classes/arca_f.png");
+			       break;
+        case 3:
+          var elem1 = document.getElementById("img_left");
+          var elem2 = document.getElementById("img_right");
+
+          elem1.setAttribute("src", "img/classes/arba_g.png");
+          elem2.setAttribute("src", "img/classes/arba_f.png");
+          break;
+        case 4:
+          var elem1 = document.getElementById("img_left");
+          var elem2 = document.getElementById("img_right");
+
+          elem1.setAttribute("src", "img/classes/templier_g.png");
+          elem2.setAttribute("src", "img/classes/templier_f.png");
+   	         break;
+        case 5:
+          var elem1 = document.getElementById("img_left");
+          var elem2 = document.getElementById("img_right");
+
+          elem1.setAttribute("src", "img/classes/primat_g.png");
+          elem2.setAttribute("src", "img/classes/primat_f.png");
+            break;
+        case 6:
+          var elem1 = document.getElementById("img_left");
+          var elem2 = document.getElementById("img_right");
+
+          elem1.setAttribute("src", "img/classes/sylphide_g.png");
+          elem2.setAttribute("src", "img/classes/sylphide_f.png");
+            break;
+        case 7:
+          var elem1 = document.getElementById("img_left");
+          var elem2 = document.getElementById("img_right");
+
+          elem1.setAttribute("src", "img/classes/envouteur_g.png");
+          elem2.setAttribute("src", "img/classes/envouteur_f.png");
+             break;
+        case 8:
+          var elem1 = document.getElementById("img_left");
+          var elem2 = document.getElementById("img_right");
+
+          elem1.setAttribute("src", "img/classes/chanoine_g.png");
+          elem2.setAttribute("src", "img/classes/chanoine_f.png");
+            break;
+          default:
 			        document.getElementById("content").innerHTML = "Clique sur un personnage pour en apprendre davantage";
 			}
 		}
@@ -346,9 +375,6 @@ Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, a
 			}
 		}
 
-      	$(document).ready(function(){
-	        $('.materialboxed').materialbox();
-      	});
 
       	$(document).ready(function(){
 	        $('.slider').slider({interval:4000});
