@@ -141,14 +141,14 @@
           <img id="img_left" class="test" src="img/classes/slayer_g.png" />
         </div>
         <div class="carousel col s4 center-align">
-          <a class="carousel-item" data-cindex="1" onmouseup="Materialize.fadeInImage('.test')" href="#one!"><img class="materialboxed" data-caption="classe Spadassin" src="img/armes/H.png" alt="Hache"></a>
-          <a class="carousel-item" data-cindex="2" onmouseup="Materialize.fadeInImage('.test')" href="#two!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
-          <a class="carousel-item" data-cindex="3" onmouseup="Materialize.fadeInImage('.test')" href="#three!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
-          <a class="carousel-item" data-cindex="4" onmouseup="Materialize.fadeInImage('.test')" href="#four!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
-          <a class="carousel-item" data-cindex="5" onmouseup="Materialize.fadeInImage('.test')" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
-          <a class="carousel-item" data-cindex="6" onmouseup="Materialize.fadeInImage('.test')" href="#six!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
-          <a class="carousel-item" data-cindex="7" onmouseup="Materialize.fadeInImage('.test')" href="#seven!"><img  class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
-          <a class="carousel-item" data-cindex="8" onmouseup="Materialize.fadeInImage('.test')" href="#height!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
+          <a class="carousel-item" data-cindex="1" href="#one!"><img class="materialboxed" data-caption="classe Spadassin" src="img/armes/H.png" alt="Hache"></a>
+          <a class="carousel-item" data-cindex="2" href="#two!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
+          <a class="carousel-item" data-cindex="3" href="#three!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
+          <a class="carousel-item" data-cindex="4" href="#four!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
+          <a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
+          <a class="carousel-item" data-cindex="6" href="#six!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
+          <a class="carousel-item" data-cindex="7" href="#seven!"><img  class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
+          <a class="carousel-item" data-cindex="8" href="#height!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
         </div>
         <div class='col s4 center-align'>
           <img id="img_right" class="test" src="img/classes/slayer_f.png" />
@@ -400,6 +400,7 @@
 
           elem1.setAttribute("src", "img/classes/slayer_g.png");
           elem2.setAttribute("src", "img/classes/slayer_f.png");
+          Materialize.fadeInImage('.test');
           break;
         case 2:
           var elem1 = document.getElementById("img_left");
@@ -407,6 +408,7 @@
 
           elem1.setAttribute("src", "img/classes/arca_g.png");
           elem2.setAttribute("src", "img/classes/arca_f.png");
+          Materialize.fadeInImage('.test');
           break;
         case 3:
           var elem1 = document.getElementById("img_left");
@@ -414,6 +416,7 @@
 
           elem1.setAttribute("src", "img/classes/arba_g.png");
           elem2.setAttribute("src", "img/classes/arba_f.png");
+          Materialize.fadeInImage('.test');
           break;
         case 4:
           var elem1 = document.getElementById("img_left");
@@ -421,6 +424,7 @@
 
           elem1.setAttribute("src", "img/classes/templier_g.png");
           elem2.setAttribute("src", "img/classes/templier_f.png");
+          Materialize.fadeInImage('.test');
           break;
         case 5:
           var elem1 = document.getElementById("img_left");
@@ -428,6 +432,7 @@
 
           elem1.setAttribute("src", "img/classes/primat_g.png");
           elem2.setAttribute("src", "img/classes/primat_f.png");
+          Materialize.fadeInImage('.test');
           break;
         case 6:
           var elem1 = document.getElementById("img_left");
@@ -435,6 +440,7 @@
 
           elem1.setAttribute("src", "img/classes/sylphide_g.png");
           elem2.setAttribute("src", "img/classes/sylphide_f.png");
+          Materialize.fadeInImage('.test');
           break;
         case 7:
           var elem1 = document.getElementById("img_left");
@@ -442,6 +448,7 @@
 
           elem1.setAttribute("src", "img/classes/envouteur_g.png");
           elem2.setAttribute("src", "img/classes/envouteur_f.png");
+          Materialize.fadeInImage('.test');
           break;
         case 8:
           var elem1 = document.getElementById("img_left");
@@ -449,6 +456,7 @@
 
           elem1.setAttribute("src", "img/classes/chanoine_g.png");
           elem2.setAttribute("src", "img/classes/chanoine_f.png");
+          Materialize.fadeInImage('.test');
           break;
         default:
           document.getElementById("content").innerHTML = "Clique sur un personnage pour en apprendre davantage";
