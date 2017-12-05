@@ -19,6 +19,10 @@
 
 }
 
+h3 {
+text-shadow: 1px 0px 22px #000;
+}
+
 #Presentation {
 	font-family: kelmscottromanregular !important;
   	font-size: large;
@@ -55,10 +59,18 @@ strong {
   	margin-right: 20%;
 }
 
-.pang {
-	background-color: #eee;
+#pang {
+
   	background-image: url(../img/pang_inc.png);
   	background-repeat: no-repeat;
   	box-sizing: border-box;
   	background-position: right bottom;
+}
+
+#tanuki {
+
+  	background-image: url(../img/tanuki.png);
+  	background-repeat: no-repeat;
+  	box-sizing: border-box;
+  	background-position: 0% 0%;
 }

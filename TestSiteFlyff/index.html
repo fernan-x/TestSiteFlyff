@@ -45,23 +45,29 @@
 
   <!-- Fond d'écran de Bienvenue -->
   <div class="parallax-container">
-    <div class="parallax"><img src="img/baner.jpg" alt="Baner"></div>
+    <div class="parallax">
+      <img src="img/baner.jpg" alt="Baner">
+    </div>
   </div>
 
   <!-- Section Presentation du Serveur -->
   <section id="Presentation">
-    <div class="section white pang">
-      <div class="row container">
-        <div class="titre">
-          <h3>Bienvenue sur le serveur <strong>Aelina Online</strong> !</h3>
-        </div><br /><br /> Vous trouverez sur cette page quelques unes des modifications apportées au jeu original tel que vous le connaissez déjà.<br />
-        <strong>Aelina Online</strong> ce n'est pas simplement notre travail. Vous êtes et serez les acteurs principaux au bon développement du serveur.
-        <br /><br />Pour cela <strong>nous avons besoin de vous !</strong><br /><br /> Aidez-nous à améliorer le serveur, nous dire ce que vous attendez d'un futur serveur comme <strong>Aelina Online</strong>.<br /><br /> Concernant les rates, elles sont
-        pour l'instant de <strong>EXP / DROP / PENYA</strong> mais suceptible de changer à l'avenir.<br /> Une <strong>bêta ouverte</strong> se prépare très prochainement. Vous pourrez donc découvrir l'univers d'<strong>Aelina Online</strong>. Restez
-        à l'affût !<br /><br />
-        <strong>"L'espoir d'un serveur enfin correct, pas bâteau, et qui durera !"</strong> Voilà ce qui nous permettra de nous envoler tous ensemble vers une nouvelle avanture !<br /><br />
-        <div class="signature">
-          <p>Cordialement,<br />L'Équipe Aelina...</p>
+    <div class="section white">
+      <div id="tanuki">
+        <div id="pang">
+          <div class="row container">
+            <div class="titre">
+              <h3>Bienvenue sur le serveur <strong>Aelina Online</strong> !</h3>
+            </div><br /><br /> Vous trouverez sur cette page quelques unes des modifications apportées au jeu original tel que vous le connaissez déjà.<br />
+            <strong>Aelina Online</strong> ce n'est pas simplement notre travail. Vous êtes et serez les acteurs principaux au bon développement du serveur.
+            <br /><br />Pour cela <strong>nous avons besoin de vous !</strong><br /><br /> Aidez-nous à améliorer le serveur, nous dire ce que vous attendez d'un futur serveur comme <strong>Aelina Online</strong>.<br /><br /> Concernant les rates, elles
+            sont pour l'instant de <strong>50 EXP / Custom DROP / 750 PENYA</strong> mais suceptible de changer à l'avenir.<br /> Une <strong>bêta ouverte</strong> se prépare très prochainement. Vous pourrez donc découvrir l'univers d'<strong>Aelina Online</strong>.
+            Restez à l'affût !<br /><br />
+            <strong>"L'espoir d'un serveur enfin correct, pas bâteau, et qui durera !"</strong> Voilà ce qui nous permettra de nous envoler tous ensemble vers une nouvelle avanture !<br /><br />
+            <div class="signature">
+              <p>Cordialement,<br />L'Équipe Aelina...</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -125,27 +131,27 @@
   <section id="Classes">
     <div class="section white">
       <div class="row">
-        <h2 class="header">Les modifications apportées aux classes</h2>
+        <h3 class="header">Les modifications apportées aux classes</h3>
         <p class="grey-text text-darken-3 lighten-3" id="content"></p>
         <div class='center-align'>
           <br />
           <p>Le Spadassin s'est vue apporter des modifications au niveau </p>
         </div>
         <div class='col s4 center-align'>
-          <img id="img_left" src="img/classes/slayer_g.png" />
+          <img id="img_left" class="test" src="img/classes/slayer_g.png" />
         </div>
-        <div class="carousel col s4">
-          <a class="carousel-item" data-cindex="1" href="#one!"><img class="materialboxed" data-caption="classe Spadassin" src="img/armes/H.png" alt="Hache"></a>
-          <a class="carousel-item" data-cindex="2" href="#two!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
-          <a class="carousel-item" data-cindex="3" href="#three!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
-          <a class="carousel-item" data-cindex="4" href="#four!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
-          <a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
-          <a class="carousel-item" data-cindex="6" href="#six!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
-          <a class="carousel-item" data-cindex="7" href="#seven!"><img  class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
-          <a class="carousel-item" data-cindex="8" href="#height!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
+        <div class="carousel col s4 center-align">
+          <a class="carousel-item" data-cindex="1" onmouseup="Materialize.fadeInImage('.test')" href="#one!"><img class="materialboxed" data-caption="classe Spadassin" src="img/armes/H.png" alt="Hache"></a>
+          <a class="carousel-item" data-cindex="2" onmouseup="Materialize.fadeInImage('.test')" href="#two!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
+          <a class="carousel-item" data-cindex="3" onmouseup="Materialize.fadeInImage('.test')" href="#three!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
+          <a class="carousel-item" data-cindex="4" onmouseup="Materialize.fadeInImage('.test')" href="#four!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
+          <a class="carousel-item" data-cindex="5" onmouseup="Materialize.fadeInImage('.test')" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
+          <a class="carousel-item" data-cindex="6" onmouseup="Materialize.fadeInImage('.test')" href="#six!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
+          <a class="carousel-item" data-cindex="7" onmouseup="Materialize.fadeInImage('.test')" href="#seven!"><img  class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
+          <a class="carousel-item" data-cindex="8" onmouseup="Materialize.fadeInImage('.test')" href="#height!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
         </div>
         <div class='col s4 center-align'>
-          <img id="img_right" src="img/classes/slayer_f.png" />
+          <img id="img_right" class="test" src="img/classes/slayer_f.png" />
         </div>
       </div>
     </div>
@@ -257,78 +263,78 @@
     </div>
   </section>
 
-<!-- Image Avant Section Modal  -->
-    <div class="parallax-container">
-      <div class="parallax"><img src="img/dfk.jpg" alt=""></div>
-    </div>
-    <!-- Section Modal  -->
-    <section id="Modal">
-      <div class="section white">
-        <div class="row container">
+  <!-- Image Avant Section Modal  -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/dfk.jpg" alt=""></div>
+  </div>
+  <!-- Section Modal  -->
+  <section id="Modal">
+    <div class="section white">
+      <div class="row container">
 
-			<!-- Modal Trigger -->
-		  	<button data-target="modal1" class="btn modal-trigger">Questionnaire</button>
-		  	<!-- Modal Structure -->
-			<form action="#!" method="post" class="col s12">
-		  		<div id="modal1" class="modal modal-fixed-footer">
-				    <div class="modal-content">
-			      		<h4>Questionnaire</h4>
-					    <div class="row">
-						    <div class="input-field col s6">
-					       		<input id="first_name" type="text" class="validate">
-					       		<label for="first_name">Nom</label>
-					       	</div>
-					       	<div class="input-field col s6">
-						       	<input id="last_name" type="text" class="validate">
-					       		<label for="last_name">Prenom</label>
-					       	</div>
-					    </div>
-					    <div class="row">
-					    	<div class="input-field col s12">
-							   	<input id="pseudo" type="text" class="validate">
-						    	<label for="pseudo">Pseudonyme</label>
-					       	</div>			        
-					    </div>
-					    <div class="row">
-						    <div class="input-field col s6">
-						      	<textarea id="q1" class="materialize-textarea" data-length="500"></textarea>
-						        <label for="q1">Pourquoi?</label>
-						    </div>
-					    </div>
-					    <div class="row">
-						    <div class="input-field col s12">
-					       		<input id="email" type="email" class="validate">
-					       		<label for="email">Email</label>
-					      	</div>
-					    </div>
-			    	</div>
-			    	<div class="modal-footer">
-			    	  	<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Annuler</a>
-			    	  	<button class="btn waves-effect waves-light" type="submit" name="action">
+        <!-- Modal Trigger -->
+        <button data-target="modal1" class="btn modal-trigger">Questionnaire</button>
+        <!-- Modal Structure -->
+        <form action="#!" method="post" class="col s12">
+          <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              <h4>Questionnaire</h4>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">Nom</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Prenom</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="pseudo" type="text" class="validate">
+                  <label for="pseudo">Pseudonyme</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <textarea id="q1" class="materialize-textarea" data-length="500"></textarea>
+                  <label for="q1">Pourquoi?</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Annuler</a>
+              <button class="btn waves-effect waves-light" type="submit" name="action">
 			    	  		Envoyer
 						    <i class="material-icons right">send</i>
 	  					</button>
-			    	</div>
-		  		</div>
-			</form>
+            </div>
+          </div>
+        </form>
 
-		   	<!-- Modal Trigger -->
-		  	<button data-target="modal2" class="btn modal-trigger">Modal</button>
+        <!-- Modal Trigger -->
+        <button data-target="modal2" class="btn modal-trigger">Modal</button>
 
-		  	<!-- Modal Structure -->
-		  	<div id="modal2" class="modal modal-fixed-footer">
-			    <div class="modal-content">
-		      		<h4>Modal Header</h4>
-		      		<p>A bunch of text</p>
-		    	</div>
-		    	<div class="modal-footer">
-		      		<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
-		    	</div>
-		  	</div>
-
+        <!-- Modal Structure -->
+        <div id="modal2" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+          </div>
         </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
   <!-- Fin de page Footer -->
   <footer class="page-footer grey darken-3" id="Contact">
@@ -342,10 +348,10 @@
         <div class="col l4 s12">
           <h4 class="white-text">Connect</h4>
           <a href="https://facebook.com/AelinaOnline/" target="_blank">
-            <i class="circular inverted teal facebook icon"></i>
+            <i class="circular inverted N/A transparent facebook icon"></i>
         	</a>
           <a href="https://twitter.com/AelinaOnline" target="_blank">
-            <i class="circular inverted teal twitter icon"></i>
+            <i class="circular inverted blue twitter icon"></i>
           </a>
         </div>
         <div class="col l4 s12">
@@ -371,9 +377,9 @@
     });
 
 
-   	$(document).ready(function(){
-   	$('.modal').modal();
-	});
+    $(document).ready(function() {
+      $('.modal').modal();
+    });
 
     $(document).ready(function() {
       $('.carousel').carousel({
