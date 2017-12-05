@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: 'kelmscottromanregular';
-    src: url('KELMSCOT-webfont.eot');
-    src: url('KELMSCOT-webfont.eot?#iefix') format('embedded-opentype'),
-         url('KELMSCOT-webfont.woff2') format('woff2'),
-         url('KELMSCOT-webfont.woff') format('woff'),
-         url('KELMSCOT-webfont.ttf') format('truetype'),
-         url('KELMSCOT-webfont.svg#kelmscottromanregular') format('svg');
+    src: url('../fonts/kelmscot/KELMSCOT-webfont.eot');
+    src: url('../fonts/kelmscot/KELMSCOT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kelmscot/KELMSCOT-webfont.woff2') format('woff2'),
+         url('../fonts/kelmscot/KELMSCOT-webfont.woff') format('woff'),
+         url('../fonts/kelmscot/KELMSCOT-webfont.ttf') format('truetype'),
+         url('../fonts/kelmscot/KELMSCOT-webfont.svg#kelmscottromanregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -31,6 +31,14 @@ text-shadow: 1px 0px 22px #000;
 }
 
 #Classes {
+	font-family: kelmscottromanregular !important;
+  	font-size: large;
+  	text-align: center;
+  	border: 2px #424242 ridge;
+}
+
+
+#Map {
 	font-family: kelmscottromanregular !important;
   	font-size: large;
   	text-align: center;
