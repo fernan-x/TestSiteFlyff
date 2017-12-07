@@ -20,6 +20,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/team.js"></script>
 
+	<!-- Import pour email -->
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript">
+	   (function(){
+	      emailjs.init("user_gG0wRllrFTTSu9Isxghyk");
+	   })();
+	</script>
+
+	<!-- Import pour captcha -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!--Let browser know website is optimized for mobile-->
@@ -84,7 +95,7 @@
 
   <!-- Section Map  -->
   <section id="Map">
-    <div class="section">
+    <div class="section white">
       <!-- Liste des messages qui défile avec des images  -->
       <div class="row container">
         <!-- <h2 class="header">Actualitées</h2>  Placer un titre a la section (laisser vide pour une section sans titre) -->
@@ -223,7 +234,7 @@
     <div class="parallax"><img src="img/Dev.jpg" alt=""></div>
   </div>
 <!--   Section Equipe  -->
-  <section id="Equipe">
+  <section id="Equipe" class="white" style="height: 450px;">
     <div class="section white">
       <div class="stf">
         <div id="sideb">
@@ -339,60 +350,124 @@
         <!-- Modal Trigger -->
         <button data-target="modal1" class="btn modal-trigger">Questionnaire</button>
         <!-- Modal Structure -->
-        <form action="#!" method="post" class="col s12">
+        <form class="col s12" name="formulaire">
           <div id="modal1" class="modal modal-fixed-footer">
             <div class="modal-content">
               <h4>Questionnaire</h4>
               <div class="row">
                 <div class="input-field col s6">
-                  <input id="first_name" type="text" class="validate">
-                  <label for="first_name">Nom</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="last_name" type="text" class="validate">
-                  <label for="last_name">Prenom</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
                   <input id="pseudo" type="text" class="validate">
-                  <label for="pseudo">Pseudonyme</label>
+                  <label for="pseudo">Pseudonyme*</label>
                 </div>
-              </div>
-              <div class="row">
                 <div class="input-field col s6">
-                  <textarea id="q1" class="materialize-textarea" data-length="500"></textarea>
-                  <label for="q1">Pourquoi?</label>
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email*</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
-                  <input id="email" type="email" class="validate">
-                  <label for="email">Email</label>
+                  <textarea id="q1" class="materialize-textarea" data-length="1000"></textarea>
+                  <label for="q1">Que voulez vous ameliorer sur le serveur?*</label>
                 </div>
               </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="q2" class="materialize-textarea" data-length="1000"></textarea>
+                  <label for="q2">Que voulez vous trouver de nouveau sur le serveur?*</label>
+                </div>
+              </div>
+              <div class="row">
+			    <input type="checkbox" id="receive_mail" checked="checked" />
+      			<label for="receive_mail">Recevoir un email concernant la beta.</label>
+			  </div>
+			  <div class="g-recaptcha" data-sitekey="6LcSDzwUAAAAADzI6Uz9GRdBuAde0FH805a7i86Q"></div>
             </div>
             <div class="modal-footer">
-              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Annuler</a>
-              <button class="btn waves-effect waves-light" type="submit" name="action">
-			    	  		Envoyer
-						    <i class="material-icons right">send</i>
-	  					</button>
+          	    <a href="#" class="modal-action modal-close btn waves-effect waves-green btn-flat ">Annuler</a>
+            	<a class="waves-effect waves-light btn" id="send_mail">Envoyer <i class="material-icons right">send</i></a>
             </div>
           </div>
         </form>
 
         <!-- Modal Trigger -->
-        <button data-target="modal2" class="btn modal-trigger">Modal</button>
+        <button data-target="modal2" class="btn modal-trigger">Condition général d'utilisation</button>
 
         <!-- Modal Structure -->
         <div id="modal2" class="modal modal-fixed-footer">
           <div class="modal-content">
-            <h4>Modal Header</h4>
-            <p>A bunch of text</p>
+            <h4>Condition général d'utilisation</h4>
+            <p>
+              <h5>ARTICLE 1 : Objet</h5>
+
+              Les présentes « conditions générales d'utilisation » ont pour objet
+              l'encadrement juridique des modalités de mise à disposition des services du site DeltaFlyff et leur utilisation par « l'Utilisateur ».
+
+
+              Les conditions générales d'utilisation doivent être acceptées par tout Utilisateur
+              souhaitant accéder au site. Elles constituent le contrat entre le site et l'Utilisateur.
+              L’accès au site par l’Utilisateur signifie son acceptation lors de la création de son compte utilisateur.
+
+              <h5>ARTICLE 2 : Définitions</h5>
+
+              La présente clause a pour objet de définir les différents termes essentiels du contrat :
+
+              • Utilisateur : ce terme désigne toute personne qui utilise le site ou l'un des services proposés par le site.
+              • Contenu utilisateur : ce sont les données transmises par l'Utilisateur au sein du site.
+              Membre : l'Utilisateur devient membre lorsqu'il est identifié sur le site.
+              • Identifiant et mot de passe : c'est l'ensemble des informations nécessaires à l'identification d'un Utilisateur sur le site.
+              L'identifiant et le mot de passe permettent à l'Utilisateur d'accéder à des services réservés aux membres du site. Le mot de passe est confidentiel.
+
+              <h5>ARTICLE 3 : Propriété intellectuelle</h5>
+
+              Les marques, logos, signes et tout
+              autre contenu du site font l'objet d'une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur.
+
+
+              L'Utilisateur sollicite l'autorisation préalable du site pour toute reproduction, publication, copie des différents contenus.
+
+
+              L'Utilisateur s'engage à une utilisation
+              des contenus du site dans un cadre strictement privé. Une utilisation des contenus à des fins commerciales est strictement interdite.
+
+
+              Tout contenu mis en ligne par l'Utilisateur est de sa seule responsabilité. L'Utilisateur s'engag
+              e à ne pas mettre en ligne de contenus pouvant porter atteinte aux intérêts de tierces personnes.
+              Tout recours en justice engagé par un tiers lésé contre le site sera pris en charge par l'Utilisateur.
+
+
+
+              Le contenu de l'Utilisateur peut être à tout moment et pour n'importe quelle raison supprimé ou modifié par le site. L'Utilisateur ne reçoit aucune
+              justification et notification préalablement à la suppression ou à la modification du contenu Utilisateur.
+
+              <h5>ARTICLE 4 : Données personnelles</h5>
+
+
+              Les informations demandées à l’inscription au site sont nécessaires et obligatoires pour la création du compte de l'Utilisateur.
+
+
+
+              Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la
+              vie privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.
+
+
+              <h5>ARTICLE 5 : Dons</h5>
+
+              Il existe sur le site un système de « Don » celui-ci n’est en aucun cas obligatoire et pour cause. Quand l’utilisateur
+              effectue une donation il s’engage à ne pas revenir sur la déscision du « Dons » en lui-même.
+
+
+              Si la règle n’est pas respectée les responsables du serveur se permette le droit de supprimer le compte définitivement.
+
+
+              <h5>ARTICLE 6 : Durée</h5>
+
+
+              La durée du présent contrat est indéterminée. Le contrat produit ses
+              effets à l'égard de l'Utilisateur à compter de l'utilisation du service.
+            </p>
           </div>
           <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Ok</a>
           </div>
         </div>
 
@@ -455,6 +530,25 @@
         }
       });
     });
+
+	$('#send_mail').click(function() {
+		if (document.formulaire.pseudo.value != "" && document.formulaire.email.value != "" &&
+    		document.formulaire.q1.value != "" && document.formulaire.q2.value != "") {
+			/*emailjs.send("gmail","template_roMxB5q2",{from_name: document.formulaire.pseudo.value, message_html: "email : " + document.formulaire.email.value + "<br/>q1 : " +
+			document.formulaire.q1.value + "<br/>q2 : " + document.formulaire.q2.value});*/
+    		$('#modal1').modal('close');
+    	}
+    	else {
+    		if (document.formulaire.pseudo.value == "")
+    			document.formulaire.pseudo.classList.add('invalid');
+    		if (document.formulaire.email.value == "")
+    			document.formulaire.email.classList.add('invalid');
+    		if (document.formulaire.q1.value == "")
+    			document.formulaire.q1.classList.add('invalid');
+    		if (document.formulaire.q2.value == "")
+    			document.formulaire.q2.classList.add('invalid');
+    	}
+	});
 
     changeSlide = function(index) {
       switch (index) {
