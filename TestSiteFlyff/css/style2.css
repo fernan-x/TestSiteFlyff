@@ -102,9 +102,9 @@ body {
   background-image: url(http://placehold.it/100);
   background-position: center;
   background-size: 100%;
-  width: 100px;
+  width: 130px;
   background-color: #fff;
-  height: 100px;
+  height: 130px;
   outline: 2px solid #777;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: inline-block;
