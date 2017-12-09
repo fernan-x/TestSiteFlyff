@@ -18,6 +18,48 @@
 
 }
 
+.dropdown-item {
+	font-family: kelmscottromanregular !important;
+	font-size: x-large;
+}
+
+.logo {
+	height:   35px;
+}
+/* CSS used here will be applied after bootstrap.css */
+.navbar-default{
+  background:rgba(0, 0, 0, 0.60);
+  }
+#navbar {
+background-color: rgba(0,0,0,0);
+  position: relative;
+z-index: 202020;
+font-family: kelmscottromanregular !important;
+margin-top: 0.5%;
+}
+.the-navbar {
+background-color: rgba(0,0,0,0);
+  position:fixed;
+border-color: #000;
+  z-index: 202020;
+  width: 100%;
+}
+
+.the-blur{
+   	position: fixed;
+  top:0;
+    width: 100%;
+  min-height: 50px;
+margin-bottom: 20px;
+    background: rgba(0,0,0,.4);
+  z-index:1010;
+  -webkit-filter: blur(20px);
+-moz-filter: blur(20px);
+-o-filter: blur(20px);
+-ms-filter: blur(20px);
+filter: blur(20px);
+  }
+
 h3 {
 text-shadow: 1px 0px 22px #000;
 }
@@ -30,12 +72,19 @@ text-shadow: 1px 0px 22px #000;
 }
 
 #Classes {
+	background:rgba(0, 0, 0, 10);
+	   /*background-image: url(../img/back/Coralisland.jpg);*/
+	 z-index:-1010;
+
 	font-family: kelmscottromanregular !important;
   	font-size: large;
   	text-align: center;
   	border: 2px #424242 ridge;
 }
 
+.classe {
+	z-index:2020;
+}
 
 #Map {
 	font-family: kelmscottromanregular !important;
@@ -46,11 +95,6 @@ text-shadow: 1px 0px 22px #000;
 
 strong {
 	font-weight: bold;
-}
-
-.logo {
-	height: 100%;
-	margin-left: 1%;
 }
 
 .titre {
@@ -65,7 +109,9 @@ strong {
   	text-align: right;
   	margin-right: 20%;
 }
-
+.icon {
+	font-size: 50px;
+}
 #pang {
 
   	background-image: url(../img/pang_inc.png);
@@ -73,7 +119,6 @@ strong {
   	box-sizing: border-box;
   	background-position: right bottom;
 }
-
 #tanuki {
 
   	background-image: url(../img/tanuki.png);

@@ -2,44 +2,51 @@
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Aelina Online</title>
-  <noscript>
+	<meta charset="utf-8" />
+	<title>Aelina Online</title>
+	<noscript>
     <meta http-equiv="Refresh" content="0; URL=NoJs.html" />
-  </noscript>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
-  <!-- Import icon -->
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
-  <!-- Import custom style -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/style2.css" />
-  <!-- Import jquery.min.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="js/team.js"></script>
+</noscript>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+	<!-- Import icon -->
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
+	<!-- Import custom style -->
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style2.css" />
+	<!-- Import jquery.min.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/team.js"></script>
 
 	<!-- Import pour email -->
 	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 	<script type="text/javascript">
-	   (function(){
-	      emailjs.init("user_gG0wRllrFTTSu9Isxghyk");
-	   })();
+		(function() {
+			emailjs.init("user_gG0wRllrFTTSu9Isxghyk");
+		})();
 	</script>
 
 	<!-- Import pour captcha -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <!-- Barre de navigation sur le site -->
 
 <body id="page-top">
+
+	<!--
   <div data-role="navbar" id="navbar" class="navbar-fixed">
     <nav class="grey darken-3">
       <div class="nav-wrapper">
@@ -57,614 +64,543 @@
       </div>
     </nav>
   </div>
-
-  <!-- Fond d'écran de Bienvenue -->
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="img/baner.jpg" alt="Baner">
-    </div>
-  </div>
-
-  <!-- Section Presentation du Serveur -->
-  <section id="Presentation">
-    <div class="section white">
-      <div id="tanuki">
-        <div id="pang">
-          <div class="row container">
-            <div class="titre">
-              <h3>Bienvenue sur le serveur <strong>Aelina Online</strong> !</h3>
-            </div><br /><br /> Vous trouverez sur cette page quelques unes des modifications apportées au jeu original tel que vous le connaissez déjà.<br />
-            <strong>Aelina Online</strong> ce n'est pas simplement notre travail. Vous êtes et serez les acteurs principaux au bon développement du serveur.
-            <br /><br />Pour cela <strong>nous avons besoin de vous !</strong><br /><br /> Aidez-nous à améliorer le serveur, nous dire ce que vous attendez d'un futur serveur comme <strong>Aelina Online</strong>.<br /><br /> Concernant les rates, elles
-            sont pour l'instant <strong>personalisée</strong> mais suceptible de changer à l'avenir.<br /> Une <strong>bêta ouverte</strong> se prépare très prochainement. Vous pourrez donc découvrir l'univers d'<strong>Aelina Online</strong>.
-            Restez à l'affût !<br /><br />
-            <strong>"L'espoir d'un serveur enfin correct, pas bâteau, et qui durera !"</strong> Voilà ce qui nous permettra de nous envoler tous ensemble vers une nouvelle avanture !<br /><br />
-            <div class="signature">
-              <p>Cordialement,<br />L'Équipe Aelina...</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Image Avant section Map  -->
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/cou.jpg" alt=""></div>
-  </div>
-
-  <!-- Section Map  -->
-  <section id="Map">
-    <div class="section white">
-      <!-- Liste des messages qui défile avec des images  -->
-      <div class="row container">
-        <!-- <h2 class="header">Actualitées</h2>  Placer un titre a la section (laisser vide pour une section sans titre) -->
-        <div class="slider">
-          <ul class="slides">
-            <li>
-              <img src="img/1.jpg" alt="">
-              <div class="caption left-align">
-                <h3>Prochainement...</h3>
-              </div>
-            </li>
-            <li>
-              <img src="img/2.jpg" alt="">
-              <div class="caption right-align">
-                <h3>...Venez découvrir une nouvelle expérience !</h3>
-              </div>
-            </li>
-            <li>
-              <img src="img/Map/flaris.jpg" alt="">
-              <div class="caption center-align">
-                <h3>Un Flaris complètement modifié !</h3>
-              </div>
-            </li>
-            <li>
-              <img src="img/Map/flaris2.jpg" alt="">
-              <div class="caption right-align">
-                <h3>Des ajouts encore jamais vue !</h3>
-              </div>
-            </li>
-            <li>
-              <img src="img/Map/flarineCentre.jpg" alt="">
-              <div class="caption left-align">
-                <h3>Un Flarine inédit...</h3>
-              </div>
-            </li>
-            <li>
-              <img src="img/Map/flarineCentre2.jpg" alt="">
-              <div class="caption right-align">
-                <h3>...Spécialement créé pour vous.</h3>
-              </div>
-            </li>
-            <li>
-              <img src="img/Map/SaintCity.jpg" alt="">
-              <div class="caption center-align">
-                <h3>Un Saint City revue</h3>
-              </div>
-            </li>
-            <li>
-              <img src="img/Map/SaintCity3.jpg" alt="">
-              <div class="caption right-align">
-                <h3>Une Zone boutique étudiée</h3>
-              </div>
-            </li>
-            <li>
-              <img src="img/Map/mapInedite.jpg" alt="">
-              <div class="caption center-align">
-                <h3>Un Nouveau Monde inexploré</h3>
-              </div>
-            </li>
-            <li>
-              <img src="img/baner.jpg" alt="">
-              <div class="caption center-align">
-                <h3>Venez Vite !</h3>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- Image Avant section CLasses  -->
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/Flyff8.jpg" alt=""></div>
-  </div>
-
-  <!-- Section Classes  -->
-  <section id="Classes">
-    <div class="section white">
-      <div class="row">
-        <h3 class="header">Les modifications apportées aux classes</h3>
-        <p class="grey-text text-darken-3 lighten-3" id="content"></p>
-        <div class='center-align'>
-          <br />
-          <p>Le Spadassin s'est vue apporter des modifications au niveau </p>
-        </div>
-        <div class='col s4 center-align hideOnPhone'>
-          <img id="img_left" class="test" src="img/classes/slayer_g.png" />
-        </div>
-        <div class="carousel col s4 center-align">
-          <a class="carousel-item" data-cindex="1" href="#one!"><img class="materialboxed" data-caption="classe Spadassin" src="img/armes/H.png" alt="Hache"></a>
-          <a class="carousel-item" data-cindex="2" href="#two!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
-          <a class="carousel-item" data-cindex="3" href="#three!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
-          <a class="carousel-item" data-cindex="4" href="#four!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
-          <a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
-          <a class="carousel-item" data-cindex="6" href="#six!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
-          <a class="carousel-item" data-cindex="7" href="#seven!"><img  class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
-          <a class="carousel-item" data-cindex="8" href="#height!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
-        </div>
-        <div class='col s4 center-align hideOnPhone'>
-          <img id="img_right" class="test" src="img/classes/slayer_f.png" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Image Avant Section Information  -->
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/Flyff11.jpg" alt=""></div>
-  </div>
-  <!-- Section Information  -->
-  <section id="Information">
-    <div class="section white">
-      <div class="row container">
-        <!-- <h2 class="header">Information</h2>  Placer un titre a la section (laisser vide pour une section sans titre) -->
-        <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum metus enim, porta pulvinar lorem non, vulputate fringilla nisl. Proin venenatis malesuada eros nec ultricies. Curabitur quis magna eget arcu consequat sollicitudin. Aenean maximus,
-          dui vitae tempor gravida, arcu libero sodales nunc, eget pharetra lectus sem eget ligula. Nulla lacus est, viverra id nisl vitae, scelerisque mattis metus. Morbi et eros dictum, ornare nulla sit amet, congue lectus. Vivamus aliquet elit quis
-          neque laoreet hendrerit. Sed a lectus metus. Nam at tellus at orci accumsan convallis. Aliquam tortor velit, sodales eu rhoncus at, aliquam scelerisque tellus. Mauris ultricies eros nec felis tempor pretium. Nullam suscipit laoreet metus, nec
-          efficitur nulla eleifend condimentum. Vivamus volutpat tortor in lorem elementum, vel rhoncus mauris egestas. Praesent eu sem consectetur, rutrum lorem fermentum, volutpat odio. Proin imperdiet nulla in metus vulputate rhoncus. Aliquam bibendum
-          enim quis nisi vestibulum, sit amet congue eros ultrices. Nunc porttitor, ex vitae maximus ultricies, lorem turpis maximus nisl, eu porttitor lectus elit a justo. Vestibulum egestas, orci sit amet varius mollis, enim massa scelerisque odio,
-          sed iaculis dolor nibh eu lorem. Mauris pharetra erat nibh, sed eleifend turpis volutpat pulvinar. Pellentesque blandit erat eget nibh vehicula porta. Phasellus tristique elit sit amet sem luctus tristique sit amet vitae ligula. Aliquam id risus
-          orci. Mauris bibendum, mi at eleifend aliquam, neque nisi malesuada massa, id ultrices est ex in risus. Proin in neque convallis, ultrices erat eu, dictum augue. Donec tempus sem eu malesuada lacinia. Donec et est ullamcorper, iaculis felis
-          vitae, tincidunt quam. Sed id aliquet justo. Suspendisse eu urna non urna tristique blandit ornare ut purus. Pellentesque euismod nibh lorem. Pellentesque cursus ex lobortis augue auctor, ac accumsan justo tempus. Aliquam condimentum dui nec
-          lectus efficitur, in congue lacus ullamcorper. Etiam posuere nibh eu erat gravida, volutpat tristique odio consequat. Phasellus sed ex ex. Mauris imperdiet a orci a fermentum. Vestibulum vel odio quis dolor porta accumsan ac sed elit. Aliquam
-          orci enim, dapibus at pharetra sit amet, commodo at purus. Ut efficitur orci varius, viverra mauris in, euismod orci. Donec in purus ut ante varius cursus. Vivamus mollis, mi sit amet ornare sagittis, lorem velit elementum turpis, non pretium
-          nisi augue in ex. Etiam eros sem, consequat vel lacinia malesuada, pulvinar et odio. Quisque ac ullamcorper ipsum, quis gravida enim. Phasellus a nisl vitae massa rhoncus tristique. Vivamus dolor est, sagittis id leo in, posuere aliquam lorem.</p>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Image Avant Section Equipe  -->
-  <div class="parallax-container hideOnPhone">
-    <div class="parallax"><img src="img/Dev.jpg" alt=""></div>
-  </div>
-<!--   Section Equipe  -->
-  <section id="Equipe" class="white hideOnPhone" style="height: 450px;">
-    <div class="section white">
-      <div class="stf">
-        <div id="sideb">
-          <div class="ch ch0"><img src="http://placehold.it/100" />
-            <h1>OUR TEAM</h1>
-            <h2>HERE ON SERENDIPITY</h2><span id="clh">Haz click en cualquiera de los miembros para acceder a su información.</span></div>
-          <div class="ch ch1"><img src="img/team/Simon.jpg" />
-            <h1>Simon Ak </h1>
-            <h2>Développeur</h2><span id="cth"><b>Rôle:</b>Fondateur</span>
-            <p>On l'aime tellement c'est un BeauGoss
-              <br/>"Je code avec mes fesses !"</p>
-            <div class="cnt"><a href="/u1"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u=1"><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch3"><img src="https://yt3.ggpht.com/-6nb35OGUpac/AAAAAAAAAAI/AAAAAAAAAAA/-Uaegrt3NwI/s100-c-k-no/photo.jpg" />
-            <h1>CAMBRIA</h1>
-            <h2>ACCOUNT CONTROL</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-            <p>Es supervisor de: Escritos y Concursos.
-              <br/>Responsabilidad: Especial.</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch4"><img src="http://placehold.it/100" />
-            <h1>CAL'SYEE</h1>
-            <h2>RULES REVISION</h2><span id="cth"><b>ESTADO:</b>SEMI-HIATUS</span>
-            <p>Es supervisor de: Publicidad.
-              <br/>Responsabilidad: Alta.</p>
-            <div class="cnt"><a href="/u8"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u=8"><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch5"><img src="http://images6.fanpop.com/image/photos/39000000/Anna-Kendrick-anna-kendrick-39056441-100-100.jpg" />
-            <h1>PAU_BLACK</h1>
-            <h2>FORUMS REVISION</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-            <p>Es supervisor: Global.
-              <br/>Responsabilidad: Alta.</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch6"><img src="img/team/test.jpg" />
-            <h1>Robin</h1>
-            <h2>Cg Artist</h2><span id="cth"><b>Rôle:</b>Graphiste</span>
-            <p>Je fais des dessins du turfu
-              <br/>"Je suis passé à la 18k hier ..."</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch7"><img src="http://placehold.it/100" />
-            <h1>NYMPHEA</h1>
-            <h2>CODING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-            <p>Es supervisado por: Skye.
-              <br/>Responsabilidad: Básica.</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch8"><img src="http://placehold.it/100" />
-            <h1>EINE KRONE</h1>
-            <h2>CODING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-            <p>Es supervisado por: Skye.
-              <br/>Responsabilidad: Básica.</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch9"><img src="img/team/Fabien2.jpg" />
-            <h1>Fabien</h1>
-            <h2>Développeur</h2><span id="cth"><b>Rôle</b>Fondateur</span>
-            <p>Le plus gros juif de cette terre
-              <br/>"Moi je veux bien finir ta part si tu n'a plus faim !"</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch10"><img src="http://ekladata.com/dtH1zjmeJ9Iul2z0ZcNsMmN2ycw.gif" />
-            <h1>PLAGUE</h1>
-            <h2>WRITTING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-            <p>Es supervisado por: Cambria.
-              <br/>Responsabilidad: Básica.</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch11"><img src="https://i.imgur.com/chFSu.png" />
-            <h1 style="font-size:22px;">TORAFARUGA RO</h1>
-            <h2>WRITTING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-            <p>Es supervisado por: Cambria.
-              <br/>Responsabilidad: Básica.</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch12"><img src="http://placehold.it/100" />
-            <h1>ODXY</h1>
-            <h2>ADVERTISING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-            <p>Es supervisado por: Cal'Syee.
-              <br/>Responsabilidad: Básica.</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-          <div class="ch ch13"><img src="http://imalbum.aufeminin.com/album/D20130613/4-918276_H180636_L_s100.jpg" />
-            <h1>TARDIS</h1>
-            <h2>CHALLENGES MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-            <p>Es supervisado por: Skye y Cambria.
-              <br/>Responsabilidad: Básica.</p>
-            <div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
-          </div>
-        </div>
-        <div id="botta">
-          <span class="a a1" style="background-image:url('img/team/Simon.jpg');"></span>
-          <span class="a a6" style="background-image:url('img/team/Wiinii.jpg');"></span>
-          <span class="a a9" style="background-image:url('img/team/Fabien2.jpg');"></span>
-          <span class="a a11" style="background-image:url(http://imstars.aufeminin.com/stars/fan/keira-knightley/keira-knightley-20060121-103613_s100.jpg);"></span>
-          <span class="a a12" style="background-image:url(http://images6.fanpop.com/image/photos/33500000/Anna-3-anna-kendrick-33518896-100-100.jpg);"></span>
-          <span class="a a13" style="background-image:url(http://imalbum.aufeminin.com/album/D20130613/13-918276_H180650_L_s100.jpg);"></span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Image Avant Section Modal  -->
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/dfk.jpg" alt=""></div>
-  </div>
-  <!-- Section Modal  -->
-  <section id="Modal">
-    <div class="section white">
-      <div class="row container">
-
-        <!-- Modal Trigger -->
-        <button data-target="modal1" class="btn modal-trigger">Questionnaire</button>
-        <!-- Modal Structure -->
-        <form class="col s12" name="formulaire">
-          <div id="modal1" class="modal modal-fixed-footer">
-            <div class="modal-content">
-              <h4>Questionnaire</h4>
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="pseudo" type="text" class="validate">
-                  <label for="pseudo">Pseudonyme*</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="email" type="email" class="validate">
-                  <label for="email">Email*</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <textarea id="q1" class="materialize-textarea" data-length="1000"></textarea>
-                  <label for="q1">Que voulez vous ameliorer sur le serveur?*</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <textarea id="q2" class="materialize-textarea" data-length="1000"></textarea>
-                  <label for="q2">Que voulez vous trouver de nouveau sur le serveur?*</label>
-                </div>
-              </div>
-              <div class="row">
-			    <input type="checkbox" id="receive_mail" checked="checked" />
-      			<label for="receive_mail">Recevoir un email concernant la beta.</label>
-			  </div>
-			  <div class="g-recaptcha" data-sitekey="6LcSDzwUAAAAADzI6Uz9GRdBuAde0FH805a7i86Q"></div>
-            </div>
-            <div class="modal-footer">
-          	    <a href="#" class="modal-action modal-close btn waves-effect waves-green btn-flat ">Annuler</a>
-            	<a class="waves-effect waves-light btn" id="send_mail">Envoyer <i class="material-icons right">send</i></a>
-            </div>
-          </div>
-        </form>
-
-        <!-- Modal Trigger -->
-        <button data-target="modal2" class="btn modal-trigger">Condition général d'utilisation</button>
-
-        <!-- Modal Structure -->
-        <div id="modal2" class="modal modal-fixed-footer">
-          <div class="modal-content">
-            <h4>Condition général d'utilisation</h4>
-            <p>
-              <h5>ARTICLE 1 : Objet</h5>
-
-              Les présentes « conditions générales d'utilisation » ont pour objet
-              l'encadrement juridique des modalités de mise à disposition des services du site DeltaFlyff et leur utilisation par « l'Utilisateur ».
-
-
-              Les conditions générales d'utilisation doivent être acceptées par tout Utilisateur
-              souhaitant accéder au site. Elles constituent le contrat entre le site et l'Utilisateur.
-              L’accès au site par l’Utilisateur signifie son acceptation lors de la création de son compte utilisateur.
-
-              <h5>ARTICLE 2 : Définitions</h5>
-
-              La présente clause a pour objet de définir les différents termes essentiels du contrat :
-
-              • Utilisateur : ce terme désigne toute personne qui utilise le site ou l'un des services proposés par le site.
-              • Contenu utilisateur : ce sont les données transmises par l'Utilisateur au sein du site.
-              Membre : l'Utilisateur devient membre lorsqu'il est identifié sur le site.
-              • Identifiant et mot de passe : c'est l'ensemble des informations nécessaires à l'identification d'un Utilisateur sur le site.
-              L'identifiant et le mot de passe permettent à l'Utilisateur d'accéder à des services réservés aux membres du site. Le mot de passe est confidentiel.
-
-              <h5>ARTICLE 3 : Propriété intellectuelle</h5>
-
-              Les marques, logos, signes et tout
-              autre contenu du site font l'objet d'une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur.
-
-
-              L'Utilisateur sollicite l'autorisation préalable du site pour toute reproduction, publication, copie des différents contenus.
-
-
-              L'Utilisateur s'engage à une utilisation
-              des contenus du site dans un cadre strictement privé. Une utilisation des contenus à des fins commerciales est strictement interdite.
-
-
-              Tout contenu mis en ligne par l'Utilisateur est de sa seule responsabilité. L'Utilisateur s'engag
-              e à ne pas mettre en ligne de contenus pouvant porter atteinte aux intérêts de tierces personnes.
-              Tout recours en justice engagé par un tiers lésé contre le site sera pris en charge par l'Utilisateur.
-
-
-
-              Le contenu de l'Utilisateur peut être à tout moment et pour n'importe quelle raison supprimé ou modifié par le site. L'Utilisateur ne reçoit aucune
-              justification et notification préalablement à la suppression ou à la modification du contenu Utilisateur.
-
-              <h5>ARTICLE 4 : Données personnelles</h5>
-
-
-              Les informations demandées à l’inscription au site sont nécessaires et obligatoires pour la création du compte de l'Utilisateur.
-
-
-
-              Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la
-              vie privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.
-
-
-              <h5>ARTICLE 5 : Dons</h5>
-
-              Il existe sur le site un système de « Don » celui-ci n’est en aucun cas obligatoire et pour cause. Quand l’utilisateur
-              effectue une donation il s’engage à ne pas revenir sur la déscision du « Dons » en lui-même.
-
-
-              Si la règle n’est pas respectée les responsables du serveur se permette le droit de supprimer le compte définitivement.
-
-
-              <h5>ARTICLE 6 : Durée</h5>
-
-
-              La durée du présent contrat est indéterminée. Le contrat produit ses
-              effets à l'égard de l'Utilisateur à compter de l'utilisation du service.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Ok</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Fin de page Footer -->
-  <footer class="page-footer grey darken-3" id="Contact">
-    <div class="container">
-      <div class="row">
-        <div class="col l4 s12">
-          <h4 class="white-text">Contact</h4>
-          <p class="grey-text text-lighten-4"><i class="material-icons left">email</i>server.flyff@gmail.com</p>
-          <p class="grey-text text-lighten-4"><i class="material-icons left">phone</i>Ta cru tu allais l'avoir?</p>
-        </div>
-        <div class="col l4 s12">
-          <h4 class="white-text">Connect</h4>
-          <a href="https://facebook.com/AelinaOnline/" target="_blank">
-            <i class="circular inverted N/A transparent facebook icon"></i>
-        	</a>
-          <a href="https://twitter.com/AelinaOnline" target="_blank">
-            <i class="circular inverted blue twitter icon"></i>
-          </a>
-        </div>
-        <div class="col l4 s12">
-          <h4 class="white-text">Join the discussion</h4>
-          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>Maecenas vulputate libero sit amet tempor tristique.<br/> Nunc blandit aliquam rutrum. Mauris non varius neque.<br/></p>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        © 2017-2018 Fabien & Ilyes, All rights reserved.
-        <a class="grey-text text-lighten-4 right" href="#!">Licence Example</a>
-      </div>
-    </div>
-  </footer>
-
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('.parallax').parallax();
-    });
-
-
-    $(document).ready(function() {
-      $('.modal').modal();
-    });
-
-    $(document).ready(function() {
-      $('.carousel').carousel({
-        dist: -150,
-        shift: 15,
-        duration: 100,
-        onCycleTo: function(data) {
-          changeSlide($(data).data('cindex'));
-        }
-      });
-    });
-
-	$('#send_mail').click(function() {
-		if (document.formulaire.pseudo.value != "" && document.formulaire.email.value != "" &&
-    		document.formulaire.q1.value != "" && document.formulaire.q2.value != "") {
-			/*emailjs.send("gmail","template_roMxB5q2",{from_name: document.formulaire.pseudo.value, message_html: "email : " + document.formulaire.email.value + "<br/>q1 : " +
-			document.formulaire.q1.value + "<br/>q2 : " + document.formulaire.q2.value});*/
-    		$('#modal1').modal('close');
-    	}
-    	else {
-    		if (document.formulaire.pseudo.value == "")
-    			document.formulaire.pseudo.classList.add('invalid');
-    		if (document.formulaire.email.value == "")
-    			document.formulaire.email.classList.add('invalid');
-    		if (document.formulaire.q1.value == "")
-    			document.formulaire.q1.classList.add('invalid');
-    		if (document.formulaire.q2.value == "")
-    			document.formulaire.q2.classList.add('invalid');
-    	}
-	});
-
-    changeSlide = function(index) {
-      switch (index) {
-        case 1:
-          var elem1 = document.getElementById("img_left");
-          var elem2 = document.getElementById("img_right");
-
-          elem1.setAttribute("src", "img/classes/slayer_g.png");
-          elem2.setAttribute("src", "img/classes/slayer_f.png");
-          Materialize.fadeInImage('.test');
-          break;
-        case 2:
-          var elem1 = document.getElementById("img_left");
-          var elem2 = document.getElementById("img_right");
-
-          elem1.setAttribute("src", "img/classes/arca_g.png");
-          elem2.setAttribute("src", "img/classes/arca_f.png");
-          Materialize.fadeInImage('.test');
-          break;
-        case 3:
-          var elem1 = document.getElementById("img_left");
-          var elem2 = document.getElementById("img_right");
-
-          elem1.setAttribute("src", "img/classes/arba_g.png");
-          elem2.setAttribute("src", "img/classes/arba_f.png");
-          Materialize.fadeInImage('.test');
-          break;
-        case 4:
-          var elem1 = document.getElementById("img_left");
-          var elem2 = document.getElementById("img_right");
-
-          elem1.setAttribute("src", "img/classes/templier_g.png");
-          elem2.setAttribute("src", "img/classes/templier_f.png");
-          Materialize.fadeInImage('.test');
-          break;
-        case 5:
-          var elem1 = document.getElementById("img_left");
-          var elem2 = document.getElementById("img_right");
-
-          elem1.setAttribute("src", "img/classes/primat_g.png");
-          elem2.setAttribute("src", "img/classes/primat_f.png");
-          Materialize.fadeInImage('.test');
-          break;
-        case 6:
-          var elem1 = document.getElementById("img_left");
-          var elem2 = document.getElementById("img_right");
-
-          elem1.setAttribute("src", "img/classes/sylphide_g.png");
-          elem2.setAttribute("src", "img/classes/sylphide_f.png");
-          Materialize.fadeInImage('.test');
-          break;
-        case 7:
-          var elem1 = document.getElementById("img_left");
-          var elem2 = document.getElementById("img_right");
-
-          elem1.setAttribute("src", "img/classes/envouteur_g.png");
-          elem2.setAttribute("src", "img/classes/envouteur_f.png");
-          Materialize.fadeInImage('.test');
-          break;
-        case 8:
-          var elem1 = document.getElementById("img_left");
-          var elem2 = document.getElementById("img_right");
-
-          elem1.setAttribute("src", "img/classes/chanoine_g.png");
-          elem2.setAttribute("src", "img/classes/chanoine_f.png");
-          Materialize.fadeInImage('.test');
-          break;
-        default:
-          document.getElementById("content").innerHTML = "Clique sur un personnage pour en apprendre davantage";
-      }
-    }
-
-    function hover(element) {
-      switch (element.id) {
-        case "fabien":
-          element.setAttribute('src', 'img/fabien2.jpg');
-          break;
-      }
-    }
-
-    function unhover(element) {
-      switch (element.id) {
-        case "fabien":
-          element.setAttribute('src', 'img/icon-man.png');
-          break;
-      }
-    }
-
-
-    $(document).ready(function() {
-      $('.slider').slider({
-        interval: 4000,height:500,indicators:false
-      });
-    });
-
-    $(document).on('click', 'a[href^="#"]', function(event) {
-      event.preventDefault();
-
-      $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top - document.getElementById('navbar').offsetHeight + 1
-      }, 500);
-
-      $(".button-collapse").sideNav();
-
-      $('.dropdown-button').dropdown({
-        inDuration: 300,
-        outDuration: 225,
-        constrainWidth: false, // Does not change width of dropdown to that of the activator
-        hover: true, // Activate on hover
-        gutter: 0, // Spacing from edge
-        belowOrigin: false, // Displays dropdown below the button
-        alignment: 'left', // Displays dropdown with edge aligned to the left of button
-        stopPropagation: false // Stops event propagation
-      })
-    });
-  </script>
+-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid the-navbar">
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#"><img class="logo" src="img/logo/aelina_online_flyff_typo.png" alt="Logo aeline Online"></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a class="dropdown-item" href="#Presentation">Présentation</a></li>
+							<li><a class="dropdown-item" href="#Map">Nouveautées</a></li>
+							<li><a class="dropdown-item" href="#Classes">Modifications</a></li>
+							<li><a class="dropdown-item" href="#Equipe">Notre Équipe</a></li>
+							<li class="dropdown-header dropdown-item">----------------------</li>
+							<li><a class="dropdown-item" href="http://lmgtfy.com/?s=b&q=Je+suis+d%C3%A9bile+alors+j%27utilise+biiiiing" target="_blank">Accès Site</a></li>
+							<li><a class="dropdown-item" href="http://lmgtfy.com/?s=b&q=je+suis+tellement+bête+que+j%27essaye+le+deuxième+lien" target="_blank">Accès Forum</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../navbar-static-top/" style="font-size: 150%;">Accèder directement au Site</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+			<div class="the-blur"></div>
+		</div>
+	</nav>
+
+	<!-- Image Avant section Presentation  -->
+	<div class="parallax-container">
+		<div class="parallax"><img src="img/baner.jpg" alt=""></div>
+	</div>
+	<!-- Section Presentation du Serveur -->
+	<section id="Presentation">
+		<div class="section white">
+			<div id="tanuki">
+				<div id="pang">
+					<div class="row container">
+						<div class="titre">
+							<h3>Bienvenue sur le serveur <strong>Aelina Online</strong> !</h3>
+						</div><br /><br /> Vous trouverez sur cette page quelques unes des modifications apportées au jeu original tel que vous le connaissez déjà.<br />
+						<strong>Aelina Online</strong> ce n'est pas simplement notre travail. Vous êtes et serez les acteurs principaux au bon développement du serveur.
+						<br /><br />Pour cela <strong>nous avons besoin de vous !</strong><br /><br /> Aidez-nous à améliorer le serveur, nous dire ce que vous attendez d'un futur serveur comme <strong>Aelina Online</strong>.<br /><br /> Concernant les rates, elles sont
+						pour l'instant <strong>personalisées</strong> mais suceptible de changer à l'avenir.<br /> Une <strong>bêta ouverte</strong> se prépare très prochainement. Vous pourrez donc découvrir l'univers d'<strong>Aelina Online</strong>. Restez à l'affût
+						!
+						<br /><br />
+						<strong>"L'espoir d'un serveur enfin correct, pas bâteau, et qui durera !"</strong> Voilà ce qui nous permettra de nous envoler tous ensemble vers une nouvelle avanture !<br /><br />
+						<div class="signature">
+							<p>Cordialement,<br />L'Équipe Aelina...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Image Avant section Map  -->
+	<div class="parallax-container">
+		<div class="parallax"><img src="img/cou.jpg" alt=""></div>
+	</div>
+
+	<!-- Section Map  -->
+	<section id="Map">
+			<!-- Liste des messages qui défile avec des images  -->
+				<div class="slider">
+					<ul class="slides">
+						<li>
+							<img src="img/1.jpg" alt="">
+							<div class="caption left-align">
+								<h3>Prochainement...</h3>
+							</div>
+						</li>
+						<li>
+							<img src="img/2.jpg" alt="">
+							<div class="caption right-align">
+								<h3>...Venez découvrir une nouvelle expérience !</h3>
+							</div>
+						</li>
+						<li>
+							<img src="img/Map/flaris.jpg" alt="">
+							<div class="caption center-align">
+								<h3>Un Flaris complètement modifié !</h3>
+							</div>
+						</li>
+						<li>
+							<img src="img/Map/flaris2.jpg" alt="">
+							<div class="caption right-align">
+								<h3>Des ajouts encore jamais vue !</h3>
+							</div>
+						</li>
+						<li>
+							<img src="img/Map/flarineCentre.jpg" alt="">
+							<div class="caption left-align">
+								<h3>Un Flarine inédit...</h3>
+							</div>
+						</li>
+						<li>
+							<img src="img/Map/flarineCentre2.jpg" alt="">
+							<div class="caption right-align">
+								<h3>...Spécialement créé pour vous.</h3>
+							</div>
+						</li>
+						<li>
+							<img src="img/Map/SaintCity.jpg" alt="">
+							<div class="caption center-align">
+								<h3>Un Saint City revue</h3>
+							</div>
+						</li>
+						<li>
+							<img src="img/Map/SaintCity3.jpg" alt="">
+							<div class="caption right-align">
+								<h3>Une Zone boutique étudiée</h3>
+							</div>
+						</li>
+						<li>
+							<img src="img/Map/mapInedite.jpg" alt="">
+							<div class="caption center-align">
+								<h3>Un Nouveau Monde inexploré</h3>
+							</div>
+						</li>
+						<li>
+							<img src="img/baner.jpg" alt="">
+							<div class="caption center-align">
+								<h3>Venez Vite !</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+	</section>
+
+
+	<!-- Image Avant section CLasses  -->
+	<div class="parallax-container">
+		<div class="parallax"><img src="img/Flyff8.jpg" alt=""></div>
+	</div>
+
+	<!-- Section Classes  -->
+	<section id="Classes">
+			<div class="row classe">
+				<h3 class="header">Les modifications apportées aux classes</h3>
+				<p class="grey-text text-darken-3 lighten-3" id="content"></p>
+				<div class='center-align'>
+					<br />
+					<p>Le Spadassin s'est vue apporter des modifications au niveau </p>
+				</div>
+				<div class='col s4 center-align hideOnPhone'>
+					<img id="img_left" class="test" src="img/classes/slayer_g.png" />
+				</div>
+				<div class="carousel col s4 center-align">
+					<a class="carousel-item" data-cindex="1" href="#one!"><img class="materialboxed" data-caption="classe Spadassin" src="img/armes/H.png" alt="Hache"></a>
+					<a class="carousel-item" data-cindex="2" href="#two!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
+					<a class="carousel-item" data-cindex="3" href="#three!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
+					<a class="carousel-item" data-cindex="4" href="#four!"><img class="materialboxed" data-caption="chasse Templier"  src="img/armes/Doloire.png" alt="Doloire"></a>
+					<a class="carousel-item" data-cindex="5" href="#five!"><img class="materialboxed" data-caption="classe Primat"  src="img/armes/Sceptre.png" alt="Spectre"></a>
+					<a class="carousel-item" data-cindex="6" href="#six!"><img class="materialboxed" data-caption="classe Sylphide"  src="img/armes/Yoyo.png" alt="Yoyo"></a>
+					<a class="carousel-item" data-cindex="7" href="#seven!"><img  class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
+					<a class="carousel-item" data-cindex="8" href="#height!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
+				</div>
+				<div class='col s4 center-align hideOnPhone'>
+					<img id="img_right" class="test" src="img/classes/slayer_f.png" />
+				</div>
+			</div>
+	</section>
+
+
+
+	<!-- Image Avant Section Equipe  -->
+	<div class="parallax-container hideOnPhone">
+		<div class="parallax"><img src="img/Dev.jpg" alt=""></div>
+	</div>
+	<!--   Section Equipe  -->
+	<section id="Equipe" class="white hideOnPhone" style="height: 450px;">
+		<div class="section white">
+			<div class="stf">
+				<div id="sideb">
+					<div class="ch ch0"><img src="http://placehold.it/100" />
+						<h1>OUR TEAM</h1>
+						<h2>HERE ON SERENDIPITY</h2><span id="clh">Haz click en cualquiera de los miembros para acceder a su información.</span></div>
+					<div class="ch ch1"><img src="img/team/Simon.jpg" />
+						<h1>Simon Ak </h1>
+						<h2>Développeur</h2><span id="cth"><b>Rôle:</b>Fondateur</span>
+						<p>On l'aime tellement c'est un BeauGoss
+							<br/>"Je code avec mes fesses !"</p>
+						<div class="cnt"><a href="/u1"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u=1"><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch3"><img src="https://yt3.ggpht.com/-6nb35OGUpac/AAAAAAAAAAI/AAAAAAAAAAA/-Uaegrt3NwI/s100-c-k-no/photo.jpg" />
+						<h1>CAMBRIA</h1>
+						<h2>ACCOUNT CONTROL</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
+						<p>Es supervisor de: Escritos y Concursos.
+							<br/>Responsabilidad: Especial.</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch4"><img src="http://placehold.it/100" />
+						<h1>CAL'SYEE</h1>
+						<h2>RULES REVISION</h2><span id="cth"><b>ESTADO:</b>SEMI-HIATUS</span>
+						<p>Es supervisor de: Publicidad.
+							<br/>Responsabilidad: Alta.</p>
+						<div class="cnt"><a href="/u8"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u=8"><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch5"><img src="http://images6.fanpop.com/image/photos/39000000/Anna-Kendrick-anna-kendrick-39056441-100-100.jpg" />
+						<h1>PAU_BLACK</h1>
+						<h2>FORUMS REVISION</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
+						<p>Es supervisor: Global.
+							<br/>Responsabilidad: Alta.</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch6"><img src="img/team/test.jpg" />
+						<h1>Robin</h1>
+						<h2>Cg Artist</h2><span id="cth"><b>Rôle:</b>Graphiste</span>
+						<p>Je fais des dessins du turfu
+							<br/>"Je suis passé à la 18k hier ..."</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch7"><img src="http://placehold.it/100" />
+						<h1>NYMPHEA</h1>
+						<h2>CODING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
+						<p>Es supervisado por: Skye.
+							<br/>Responsabilidad: Básica.</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch8"><img src="http://placehold.it/100" />
+						<h1>EINE KRONE</h1>
+						<h2>CODING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
+						<p>Es supervisado por: Skye.
+							<br/>Responsabilidad: Básica.</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch9"><img src="img/team/Fabien2.jpg" />
+						<h1>Fabien</h1>
+						<h2>Développeur</h2><span id="cth"><b>Rôle</b>Fondateur</span>
+						<p>Le plus gros juif de cette terre
+							<br/>"Moi je veux bien finir ta part si tu n'a plus faim !"</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch10"><img src="http://ekladata.com/dtH1zjmeJ9Iul2z0ZcNsMmN2ycw.gif" />
+						<h1>PLAGUE</h1>
+						<h2>WRITTING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
+						<p>Es supervisado por: Cambria.
+							<br/>Responsabilidad: Básica.</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch11"><img src="https://i.imgur.com/chFSu.png" />
+						<h1 style="font-size:22px;">TORAFARUGA RO</h1>
+						<h2>WRITTING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
+						<p>Es supervisado por: Cambria.
+							<br/>Responsabilidad: Básica.</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch12"><img src="http://placehold.it/100" />
+						<h1>ODXY</h1>
+						<h2>ADVERTISING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
+						<p>Es supervisado por: Cal'Syee.
+							<br/>Responsabilidad: Básica.</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+					<div class="ch ch13"><img src="http://imalbum.aufeminin.com/album/D20130613/4-918276_H180636_L_s100.jpg" />
+						<h1>TARDIS</h1>
+						<h2>CHALLENGES MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
+						<p>Es supervisado por: Skye y Cambria.
+							<br/>Responsabilidad: Básica.</p>
+						<div class="cnt"><a href="/u"><i class="fa fa-user"></i></a><a href="/privmsg?mode=post&u="><i class="fa fa-envelope"></i></a></div>
+					</div>
+				</div>
+				<div id="botta">
+					<span class="a a1" style="background-image:url('img/team/Simon.jpg');"></span>
+					<span class="a a6" style="background-image:url('img/team/Wiinii.jpg');"></span>
+					<span class="a a9" style="background-image:url('img/team/Fabien2.jpg');"></span>
+					<span class="a a11" style="background-image:url(http://imstars.aufeminin.com/stars/fan/keira-knightley/keira-knightley-20060121-103613_s100.jpg);"></span>
+					<span class="a a12" style="background-image:url(http://images6.fanpop.com/image/photos/33500000/Anna-3-anna-kendrick-33518896-100-100.jpg);"></span>
+					<span class="a a13" style="background-image:url(http://imalbum.aufeminin.com/album/D20130613/13-918276_H180650_L_s100.jpg);"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Image Avant Section Modal  -->
+	<div class="parallax-container">
+		<div class="parallax"><img src="img/dfk.jpg" alt=""></div>
+	</div>
+	<!-- Section Modal  -->
+	<section id="Modal">
+		<div class="section white">
+			<div class="row container">
+
+				<!-- Modal Trigger -->
+				<button data-target="modal1" class="btn modal-trigger">Questionnaire</button>
+				<!-- Modal Structure -->
+				<form class="col s12" name="formulaire">
+					<div id="modal1" class="modal modal-fixed-footer">
+						<div class="modal-content">
+							<h4>Questionnaire</h4>
+							<div class="row">
+								<div class="input-field col s6">
+									<input id="pseudo" type="text" class="validate">
+									<label for="pseudo">Pseudonyme*</label>
+								</div>
+								<div class="input-field col s6">
+									<input id="email" type="email" class="validate">
+									<label for="email">Email*</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-field col s12">
+									<textarea id="q1" class="materialize-textarea" data-length="1000"></textarea>
+									<label for="q1">Que voulez vous ameliorer sur le serveur?*</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-field col s12">
+									<textarea id="q2" class="materialize-textarea" data-length="1000"></textarea>
+									<label for="q2">Que voulez vous trouver de nouveau sur le serveur?*</label>
+								</div>
+							</div>
+							<div class="row">
+								<input type="checkbox" id="receive_mail" checked="checked" />
+								<label for="receive_mail">Recevoir un email concernant la beta.</label>
+							</div>
+							<div class="g-recaptcha" data-sitekey="6LcSDzwUAAAAADzI6Uz9GRdBuAde0FH805a7i86Q"></div>
+						</div>
+						<div class="modal-footer">
+							<a href="#" class="modal-action modal-close btn waves-effect waves-green btn-flat ">Annuler</a>
+							<a class="waves-effect waves-light btn" id="send_mail">Envoyer <i class="material-icons right">send</i></a>
+						</div>
+					</div>
+				</form>
+
+				<!-- Modal Trigger -->
+				<button data-target="modal2" class="btn modal-trigger">Condition général d'utilisation</button>
+
+				<!-- Modal Structure -->
+				<div id="modal2" class="modal modal-fixed-footer">
+					<div class="modal-content">
+						<h4>Condition général d'utilisation</h4>
+						<p>
+							<h5>ARTICLE 1 : Objet</h5> Les présentes « conditions générales d'utilisation » ont pour objet l'encadrement juridique des modalités de mise à disposition des services du site DeltaFlyff et leur utilisation par « l'Utilisateur ». Les conditions générales d'utilisation doivent
+							être acceptées par tout Utilisateur souhaitant accéder au site. Elles constituent le contrat entre le site et l'Utilisateur. L’accès au site par l’Utilisateur signifie son acceptation lors de la création de son compte utilisateur.
+
+							<h5>ARTICLE 2 : Définitions</h5> La présente clause a pour objet de définir les différents termes essentiels du contrat : • Utilisateur : ce terme désigne toute personne qui utilise le site ou l'un des services proposés par le site. • Contenu utilisateur : ce sont les données
+							transmises par l'Utilisateur au sein du site. Membre : l'Utilisateur devient membre lorsqu'il est identifié sur le site. • Identifiant et mot de passe : c'est l'ensemble des informations nécessaires à l'identification d'un Utilisateur sur le site.
+							L'identifiant et le mot de passe permettent à l'Utilisateur d'accéder à des services réservés aux membres du site. Le mot de passe est confidentiel.
+
+							<h5>ARTICLE 3 : Propriété intellectuelle</h5> Les marques, logos, signes et tout autre contenu du site font l'objet d'une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur. L'Utilisateur sollicite l'autorisation préalable du site pour toute
+							reproduction, publication, copie des différents contenus. L'Utilisateur s'engage à une utilisation des contenus du site dans un cadre strictement privé. Une utilisation des contenus à des fins commerciales est strictement interdite. Tout contenu
+							mis en ligne par l'Utilisateur est de sa seule responsabilité. L'Utilisateur s'engag e à ne pas mettre en ligne de contenus pouvant porter atteinte aux intérêts de tierces personnes. Tout recours en justice engagé par un tiers lésé contre le site
+							sera pris en charge par l'Utilisateur. Le contenu de l'Utilisateur peut être à tout moment et pour n'importe quelle raison supprimé ou modifié par le site. L'Utilisateur ne reçoit aucune justification et notification préalablement à la suppression
+							ou à la modification du contenu Utilisateur.
+
+							<h5>ARTICLE 4 : Données personnelles</h5> Les informations demandées à l’inscription au site sont nécessaires et obligatoires pour la création du compte de l'Utilisateur. Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la vie
+							privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.
+
+
+							<h5>ARTICLE 5 : Dons</h5> Il existe sur le site un système de « Don » celui-ci n’est en aucun cas obligatoire et pour cause. Quand l’utilisateur effectue une donation il s’engage à ne pas revenir sur la déscision du « Dons » en lui-même. Si la règle n’est pas respectée
+							les responsables du serveur se permette le droit de supprimer le compte définitivement.
+
+
+							<h5>ARTICLE 6 : Durée</h5> La durée du présent contrat est indéterminée. Le contrat produit ses effets à l'égard de l'Utilisateur à compter de l'utilisation du service.
+						</p>
+					</div>
+					<div class="modal-footer">
+						<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Ok</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Fin de page Footer -->
+	<footer class="page-footer grey darken-3" id="Contact">
+		<div class="container">
+			<div class="row">
+				<div class="col l4 s12">
+					<h4 class="white-text">Nous Contacter</h4>
+					<p class="grey-text text-lighten-4"><i class="material-icons left">email</i>server.flyff@gmail.com</p>
+					<p class="grey-text text-lighten-4"><i class="material-icons left">phone</i>Ta cru tu allais l'avoir?</p>
+				</div>
+				<div class="col l4 s12">
+					<h4 class="white-text">Nous Suivre</h4>
+					<a href="https://facebook.com/AelinaOnline/" target="_blank">
+            			<i class="inverted facebook icon"></i>
+        			</a>
+					<a href="https://twitter.com/AelinaOnline" target="_blank">
+            			<i class="inverted twitter icon"></i>
+          			</a>
+					<a href="" target="_blank">
+						<i class="inverted youtube icon"></i>
+					</a>
+				</div>
+				<div class="col l4 s12">
+					<h4 class="white-text">Join the discussion</h4>
+					<p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>Maecenas vulputate libero sit amet tempor tristique.<br/> Nunc blandit aliquam rutrum. Mauris non varius neque.<br/></p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2017-2018 Fabien & Ilyes, All rights reserved.
+				<a class="grey-text text-lighten-4 right" href="#!">Licence Example</a>
+			</div>
+		</div>
+	</footer>
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.parallax').parallax();
+		});
+
+
+		$(document).ready(function() {
+			$('.modal').modal();
+		});
+
+		$(document).ready(function() {
+			$('.carousel').carousel({
+				dist: -150,
+				shift: 15,
+				duration: 100,
+				onCycleTo: function(data) {
+					changeSlide($(data).data('cindex'));
+				}
+			});
+		});
+
+		$('#send_mail').click(function() {
+			if (document.formulaire.pseudo.value != "" && document.formulaire.email.value != "" &&
+				document.formulaire.q1.value != "" && document.formulaire.q2.value != "") {
+				/*emailjs.send("gmail","template_roMxB5q2",{from_name: document.formulaire.pseudo.value, message_html: "email : " + document.formulaire.email.value + "<br/>q1 : " +
+				document.formulaire.q1.value + "<br/>q2 : " + document.formulaire.q2.value});*/
+				$('#modal1').modal('close');
+			} else {
+				if (document.formulaire.pseudo.value == "")
+					document.formulaire.pseudo.classList.add('invalid');
+				if (document.formulaire.email.value == "")
+					document.formulaire.email.classList.add('invalid');
+				if (document.formulaire.q1.value == "")
+					document.formulaire.q1.classList.add('invalid');
+				if (document.formulaire.q2.value == "")
+					document.formulaire.q2.classList.add('invalid');
+			}
+		});
+
+		changeSlide = function(index) {
+			switch (index) {
+				case 1:
+					var elem1 = document.getElementById("img_left");
+					var elem2 = document.getElementById("img_right");
+
+					elem1.setAttribute("src", "img/classes/slayer_g.png");
+					elem2.setAttribute("src", "img/classes/slayer_f.png");
+					Materialize.fadeInImage('.test');
+					break;
+				case 2:
+					var elem1 = document.getElementById("img_left");
+					var elem2 = document.getElementById("img_right");
+
+					elem1.setAttribute("src", "img/classes/arca_g.png");
+					elem2.setAttribute("src", "img/classes/arca_f.png");
+					Materialize.fadeInImage('.test');
+					break;
+				case 3:
+					var elem1 = document.getElementById("img_left");
+					var elem2 = document.getElementById("img_right");
+
+					elem1.setAttribute("src", "img/classes/arba_g.png");
+					elem2.setAttribute("src", "img/classes/arba_f.png");
+					Materialize.fadeInImage('.test');
+					break;
+				case 4:
+					var elem1 = document.getElementById("img_left");
+					var elem2 = document.getElementById("img_right");
+
+					elem1.setAttribute("src", "img/classes/templier_g.png");
+					elem2.setAttribute("src", "img/classes/templier_f.png");
+					Materialize.fadeInImage('.test');
+					break;
+				case 5:
+					var elem1 = document.getElementById("img_left");
+					var elem2 = document.getElementById("img_right");
+
+					elem1.setAttribute("src", "img/classes/primat_g.png");
+					elem2.setAttribute("src", "img/classes/primat_f.png");
+					Materialize.fadeInImage('.test');
+					break;
+				case 6:
+					var elem1 = document.getElementById("img_left");
+					var elem2 = document.getElementById("img_right");
+
+					elem1.setAttribute("src", "img/classes/sylphide_g.png");
+					elem2.setAttribute("src", "img/classes/sylphide_f.png");
+					Materialize.fadeInImage('.test');
+					break;
+				case 7:
+					var elem1 = document.getElementById("img_left");
+					var elem2 = document.getElementById("img_right");
+
+					elem1.setAttribute("src", "img/classes/envouteur_g.png");
+					elem2.setAttribute("src", "img/classes/envouteur_f.png");
+					Materialize.fadeInImage('.test');
+					break;
+				case 8:
+					var elem1 = document.getElementById("img_left");
+					var elem2 = document.getElementById("img_right");
+
+					elem1.setAttribute("src", "img/classes/chanoine_g.png");
+					elem2.setAttribute("src", "img/classes/chanoine_f.png");
+					Materialize.fadeInImage('.test');
+					break;
+				default:
+					document.getElementById("content").innerHTML = "Clique sur un personnage pour en apprendre davantage";
+			}
+		}
+
+		$('ul.nav li.dropdown').hover(function() {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+		}, function() {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+		});
+
+		$(document).ready(function() {
+			$('.slider').slider({
+				interval: 4000,
+				height: 600,
+				full_width: true,
+				indicators: false
+			});
+		});
+
+		$(document).on('click', 'a[href^="#"]', function(event) {
+			event.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top - document.getElementById('navbar').offsetHeight + 1
+			}, 500);
+		});
+	</script>
 </body>
 
 </html>
