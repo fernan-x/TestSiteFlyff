@@ -206,7 +206,7 @@
 				<div id="right">
 					<div class="row">
 						<h3 class="header">Les modifications apportées aux classes</h3>
-						<div class='center-align'>
+						<div class='center-align' id="text_modif">
 							<br />
 							<p>Le Spadassin s'est vue apporter des modifications au niveau </p>
 						</div>
@@ -521,6 +521,7 @@
 					elem1.setAttribute("src", "img/classes/slayer_g.png");
 					elem2.setAttribute("src", "img/classes/slayer_f.png");
 					Materialize.fadeInImage('.test');
+          document.getElementById("text_modif").innerHTML = "<br /><p>test1</p>";          
 					break;
 				case 2:
 					var elem1 = document.getElementById("img_left");
@@ -529,6 +530,7 @@
 					elem1.setAttribute("src", "img/classes/arca_g.png");
 					elem2.setAttribute("src", "img/classes/arca_f.png");
 					Materialize.fadeInImage('.test');
+          document.getElementById("text_modif").innerHTML = "<br /><p>test2</p>";
 					break;
 				case 3:
 					var elem1 = document.getElementById("img_left");
@@ -537,6 +539,7 @@
 					elem1.setAttribute("src", "img/classes/arba_g.png");
 					elem2.setAttribute("src", "img/classes/arba_f.png");
 					Materialize.fadeInImage('.test');
+          document.getElementById("text_modif").innerHTML = "<br /><p>test3</p>";
 					break;
 				case 4:
 					var elem1 = document.getElementById("img_left");
@@ -545,6 +548,7 @@
 					elem1.setAttribute("src", "img/classes/templier_g.png");
 					elem2.setAttribute("src", "img/classes/templier_f.png");
 					Materialize.fadeInImage('.test');
+          document.getElementById("text_modif").innerHTML = "<br /><p>test4</p>";
 					break;
 				case 5:
 					var elem1 = document.getElementById("img_left");
@@ -553,6 +557,7 @@
 					elem1.setAttribute("src", "img/classes/primat_g.png");
 					elem2.setAttribute("src", "img/classes/primat_f.png");
 					Materialize.fadeInImage('.test');
+          document.getElementById("text_modif").innerHTML = "<br /><p>test5</p>";
 					break;
 				case 6:
 					var elem1 = document.getElementById("img_left");
@@ -561,6 +566,7 @@
 					elem1.setAttribute("src", "img/classes/sylphide_g.png");
 					elem2.setAttribute("src", "img/classes/sylphide_f.png");
 					Materialize.fadeInImage('.test');
+          document.getElementById("text_modif").innerHTML = "<br /><p>test6</p>";
 					break;
 				case 7:
 					var elem1 = document.getElementById("img_left");
@@ -569,6 +575,7 @@
 					elem1.setAttribute("src", "img/classes/envouteur_g.png");
 					elem2.setAttribute("src", "img/classes/envouteur_f.png");
 					Materialize.fadeInImage('.test');
+          document.getElementById("text_modif").innerHTML = "<br /><p>test7</p>";
 					break;
 				case 8:
 					var elem1 = document.getElementById("img_left");
@@ -577,9 +584,10 @@
 					elem1.setAttribute("src", "img/classes/chanoine_g.png");
 					elem2.setAttribute("src", "img/classes/chanoine_f.png");
 					Materialize.fadeInImage('.test');
+          document.getElementById("text_modif").innerHTML = "<br /><p>test8</p>";
 					break;
 				default:
-					document.getElementById("content").innerHTML = "Clique sur un personnage pour en apprendre davantage";
+          document.getElementById("text_modif").innerHTML = "Clique sur un personnage pour en apprendre davantage";
 			}
 		}
 
