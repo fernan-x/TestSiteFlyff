@@ -106,6 +106,18 @@ strong {
   	font-style: oblique;
 }
 
+.footer {
+  padding-top: 0px !important;
+  background-image: url(../img/16614-wallpaperFlyff_10282.jpg);
+  border-color: #000;
+}
+
+.footer_trp {
+  background-color: rgba(0,0,0,0.6); 
+  opacity: 1;
+  font-family: kelmscottromanregular !important;
+}
+
 .signature {
   	font-size: 95%;
   	font-style: oblique;
