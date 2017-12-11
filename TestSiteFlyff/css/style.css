@@ -80,6 +80,13 @@ text-shadow: 1px 0px 22px #000;
   	border: 2px #424242 ridge;
 }
 
+#Equipe {
+  font-family: kelmscottromanregular !important;
+    font-size: large;
+    text-align: center;
+    border: 2px #424242 ridge;
+}
+
 .classe {
 	background-image: url(../img/back/Square.png);
   	background-repeat: no-repeat;
@@ -114,6 +121,21 @@ strong {
 
 .footer_trp {
   background-color: rgba(0,0,0,0.6); 
+  opacity: 1;
+  font-family: kelmscottromanregular !important;
+}
+
+.team {
+  padding-top: 0px !important;
+  background-image: url(../img/back/fume.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+   border: 0.5px #FFFFFF solid !important;
+}
+
+.team_trp {
+  background-color: rgba(0,0,0,0.6); 
+  height: 100%;
   opacity: 1;
   font-family: kelmscottromanregular !important;
 }
