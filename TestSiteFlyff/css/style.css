@@ -35,7 +35,7 @@ background-color: rgba(0,0,0,0);
   position: relative;
 z-index: 202020;
 font-family: kelmscottromanregular !important;
-margin-top: 0.5%;
+margin-top: 0.2%;
 }
 .the-navbar {
 background-color: rgba(0,0,0,0);
@@ -88,22 +88,24 @@ text-shadow: 1px 0px 22px #000;
 }
 
 .backfd {
-	position: absolute !important;
-	z-index: -1 !important;
+	background-image: url(../img/back/baner.jpg);
+	background-position: center;
+	position: absolute;
+	z-index: -1;
 }
 
 .logo_typo {
 	/*background-image: url(../img/logo/aelina_online_flyff_typo_black.png);*/
-	z-index: 0 !important;
-	position: relative !important;
-	margin-left: 40% !important;
-
+	margin: auto !important;
+	height:  10px !important;
+	width: 10px !important;
 }
 
 .logo_fond {
 	display:block;
 	z-index: 1 !important;
 	position: absolute !important;
+	max-height: 10% !im;
 	margin-top: 10%;
 
 }
@@ -128,7 +130,9 @@ strong {
 
 .footer {
   padding-top: 0px !important;
-  background-image: url(../img/16614-wallpaperFlyff_10282.jpg);
+  background-image: url(../img/MapLoading6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   border-color: #000;
 }
 
@@ -140,9 +144,10 @@ strong {
 
 .team {
   padding-top: 0px !important;
-  background-image: url(../img/back/fume.gif);
+  background-image: url(../img/grotte.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
    border: 0.5px #FFFFFF solid !important;
 }
 
@@ -164,14 +169,14 @@ strong {
 }
 #pang {
 
-  	background-image: url(../img/pang_inc.png);
+  	background-image: url(../img/back/pang_inc.png);
   	background-repeat: no-repeat;
   	box-sizing: border-box;
   	background-position: right bottom;
 }
 #tanuki {
 
-  	background-image: url(../img/tanuki.png);
+  	background-image: url(../img/back/tanuki.png);
   	background-repeat: no-repeat;
   	box-sizing: border-box;
   	background-position: 0% 0%;

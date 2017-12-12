@@ -1,50 +1,114 @@
-$(document).ready(function(){
-  $('.a1').click(function(){
-    $('.ch1').show(500);
-    $('.ch0, .ch2, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8').hide(500);
-    $(this).addClass('acth');
-    $('.a2, .a3, .a4, .a5, .a6, .a7, .a8').removeClass('acth');
-  });
-  $('.a2').click(function(){
-    $('.ch2').show(500);
-    $('.ch0, .ch1, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8').hide(500);
-    $(this).addClass('acth');
-    $('.a1, .a3, .a4, .a5, .a6, .a7, .a8').removeClass('acth');
-  });
-  $('.a3').click(function(){
-    $('.ch3').show(500);
-    $('.ch0, .ch1, .ch2, .ch4, .ch5, .ch6, .ch7, .ch8').hide(500);
-    $(this).addClass('acth');
-    $('.a1, .a2, .a4, .a5, .a6, .a7, .a8').removeClass('acth');
-  });
-  $('.a4').click(function(){
-    $('.ch4').show(500);
-    $('.ch0, .ch1, .ch3, .ch2, .ch5, .ch6, .ch7, .ch8').hide(500);
-    $(this).addClass('acth');
-    $('.a1, .a3, .a2, .a5, .a6, .a7, .a8').removeClass('acth');
-  });
-  $('.a5').click(function(){
-    $('.ch5').show(500);
-    $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch6, .ch7, .ch8').hide(500);
-    $(this).addClass('acth');
-    $('.a1, .a3, .a2, .a4, .a6, .a7, .a8').removeClass('acth');
-  });
-  $('.a6').click(function(){
-    $('.ch6').show(500);
-    $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch5, .ch7, .ch8').hide(500);
-    $(this).addClass('acth');
-    $('.a1, .a3, .a2, .a4, .a5, .a7, .a8').removeClass('acth');
-  });
-  $('.a7').click(function(){
-    $('.ch7').show(500);
-    $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch5, .ch6, .ch8').hide(500);
-    $(this).addClass('acth');
-    $('.a1, .a3, .a2, .a4, .a5, .a6, .a8').removeClass('acth');
-  });
-  $('.a8').click(function(){
-    $('.ch8').show(500);
-    $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch5, .ch6, .ch7').hide(500);
-    $(this).addClass('acth');
-    $('.a1, .a3, .a2, .a4, .a5, .a6, .a7').removeClass('acth');
-  });
+$(document).ready(function() {
+    $('.a1').click(function() {
+        $('.a1').attr('style', "background-image:url('img/team/simon_color.jpg');");
+        $('.a2').attr('style', "background-image:url('img/team/Robin_B.jpg');");
+        $('.a3').attr('style', "background-image:url('img/team/fabien_B.jpg');");
+        $('.a4').attr('style', "background-image:url('img/team/ilyes_B.jpg');");
+        $('.a5').attr('style', "background-image:url('img/team/licht_B.jpg');");
+        $('.a6').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
+        $('.a7').attr('style', "background-image:url('img/team/.jpg');");
+        $('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.ch1').show(500);
+        $('.ch0, .ch2, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8').hide(500);
+        $(this).addClass('acth');
+        $('.a2, .a3, .a4, .a5, .a6, .a7, .a8').removeClass('acth');
+    });
+    $('.a2').click(function() {
+        $('.a1').attr('style', "background-image:url('img/team/simon_B.jpg');");
+        $('.a2').attr('style', "background-image:url('img/team/Robin_color.jpg');");
+        $('.a3').attr('style', "background-image:url('img/team/fabien_B.jpg');");
+        $('.a4').attr('style', "background-image:url('img/team/ilyes_B.jpg');");
+        $('.a5').attr('style', "background-image:url('img/team/licht_B.jpg');");
+        $('.a6').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
+        $('.a7').attr('style', "background-image:url('img/team/.jpg');");
+        $('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.ch2').show(500);
+        $('.ch0, .ch1, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8').hide(500);
+        $(this).addClass('acth');
+        $('.a1, .a3, .a4, .a5, .a6, .a7, .a8').removeClass('acth');
+    });
+    $('.a3').click(function() {
+		$('.a1').attr('style', "background-image:url('img/team/simon_B.jpg');");
+		$('.a2').attr('style', "background-image:url('img/team/Robin_B.jpg');");
+		$('.a3').attr('style', "background-image:url('img/team/fabien_color.jpg');");
+		$('.a4').attr('style', "background-image:url('img/team/ilyes_B.jpg');");
+		$('.a5').attr('style', "background-image:url('img/team/licht_B.jpg');");
+		$('.a6').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
+		$('.a7').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.ch3').show(500);
+        $('.ch0, .ch1, .ch2, .ch4, .ch5, .ch6, .ch7, .ch8').hide(500);
+        $(this).addClass('acth');
+        $('.a1, .a2, .a4, .a5, .a6, .a7, .a8').removeClass('acth');
+    });
+    $('.a4').click(function() {
+		$('.a1').attr('style', "background-image:url('img/team/simon_B.jpg');");
+		$('.a2').attr('style', "background-image:url('img/team/Robin_B.jpg');");
+		$('.a3').attr('style', "background-image:url('img/team/fabien_B.jpg');");
+		$('.a4').attr('style', "background-image:url('img/team/ilyes_color.jpg');");
+		$('.a5').attr('style', "background-image:url('img/team/licht_B.jpg');");
+		$('.a6').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
+		$('.a7').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.ch4').show(500);
+        $('.ch0, .ch1, .ch3, .ch2, .ch5, .ch6, .ch7, .ch8').hide(500);
+        $(this).addClass('acth');
+        $('.a1, .a3, .a2, .a5, .a6, .a7, .a8').removeClass('acth');
+    });
+    $('.a5').click(function() {
+		$('.a1').attr('style', "background-image:url('img/team/simon_B.jpg');");
+		$('.a2').attr('style', "background-image:url('img/team/Robin_B.jpg');");
+		$('.a3').attr('style', "background-image:url('img/team/fabien_B.jpg');");
+		$('.a4').attr('style', "background-image:url('img/team/ilyes_B.jpg');");
+		$('.a5').attr('style', "background-image:url('img/team/licht_color.jpg');");
+		$('.a6').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
+		$('.a7').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.ch5').show(500);
+        $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch6, .ch7, .ch8').hide(500);
+        $(this).addClass('acth');
+        $('.a1, .a3, .a2, .a4, .a6, .a7, .a8').removeClass('acth');
+    });
+    $('.a6').click(function() {
+		$('.a1').attr('style', "background-image:url('img/team/simon_B.jpg');");
+		$('.a2').attr('style', "background-image:url('img/team/Robin_B.jpg');");
+		$('.a3').attr('style', "background-image:url('img/team/fabien_B.jpg');");
+		$('.a4').attr('style', "background-image:url('img/team/ilyes_B.jpg');");
+		$('.a5').attr('style', "background-image:url('img/team/licht_B.jpg');");
+		$('.a6').attr('style', "background-image:url('img/team/Abricot_color.jpg');");
+		$('.a7').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.ch6').show(500);
+        $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch5, .ch7, .ch8').hide(500);
+        $(this).addClass('acth');
+        $('.a1, .a3, .a2, .a4, .a5, .a7, .a8').removeClass('acth');
+    });
+    $('.a7').click(function() {
+		$('.a1').attr('style', "background-image:url('img/team/simon_B.jpg');");
+		$('.a2').attr('style', "background-image:url('img/team/Robin_B.jpg');");
+		$('.a3').attr('style', "background-image:url('img/team/fabien_B.jpg');");
+		$('.a4').attr('style', "background-image:url('img/team/ilyes_B.jpg');");
+		$('.a5').attr('style', "background-image:url('img/team/licht_B.jpg');");
+		$('.a6').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
+		$('.a7').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.ch7').show(500);
+        $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch5, .ch6, .ch8').hide(500);
+        $(this).addClass('acth');
+        $('.a1, .a3, .a2, .a4, .a5, .a6, .a8').removeClass('acth');
+    });
+    $('.a8').click(function() {
+		$('.a1').attr('style', "background-image:url('img/team/simon_B.jpg');");
+		$('.a2').attr('style', "background-image:url('img/team/Robin_B.jpg');");
+		$('.a3').attr('style', "background-image:url('img/team/fabien_B.jpg');");
+		$('.a4').attr('style', "background-image:url('img/team/ilyes_B.jpg');");
+		$('.a5').attr('style', "background-image:url('img/team/licht_B.jpg');");
+		$('.a6').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
+		$('.a7').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.ch8').show(500);
+        $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch5, .ch6, .ch7').hide(500);
+        $(this).addClass('acth');
+        $('.a1, .a3, .a2, .a4, .a5, .a6, .a7').removeClass('acth');
+    });
 });
