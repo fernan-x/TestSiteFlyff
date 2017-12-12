@@ -148,7 +148,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   border: 0.5px #FFFFFF solid !important;
+  	border: 2px #424242 ridge;
 }
 
 .team_trp {
