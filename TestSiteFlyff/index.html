@@ -30,6 +30,21 @@
 	<script type="text/javascript">
 		(function() {
 			emailjs.init("user_gG0wRllrFTTSu9Isxghyk");
+			document.oncontextmenu = new Function("return false");
+			function ffalse()
+                {
+                        return false;
+                }
+                function ftrue()
+                {
+                        return true;
+                }
+                document.onselectstart = new Function ("return false");
+                if(window.sidebar)
+                {
+                        document.onmousedown = ffalse;
+                        document.onclick = ftrue;
+                }
 		})();
 	</script>
 
@@ -45,26 +60,6 @@
 <!-- Barre de navigation sur le site -->
 
 <body id="page-top">
-
-	<!--
-  <div data-role="navbar" id="navbar" class="navbar-fixed">
-    <nav class="grey darken-3">
-      <div class="nav-wrapper">
-        <a href="#page-top" class="brand-logo logo"><img class="logo" src="img/Logo.png" alt="Logo aeline Online"></a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="parallax.html"><i class="material-icons right">account_box</i>Accéder directement Au Site</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="#Actualitees"><i class="material-icons right">announcement</i>Actualitées</a></li>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-
-        </ul>
-      </div>
-    </nav>
-  </div>
--->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid the-navbar">
 			<div id="navbar" class="navbar-collapse collapse">
@@ -93,8 +88,10 @@
 
 	<!-- Image Avant section Presentation  -->
 	<div class="parallax-container">
-		<div class="parallax"><img src="img/baner.jpg" alt=""></div>
+		<div class="parallax backfd"><img src="img/baner.jpg" alt=""></div>
+		<div class="logo_typo" ><img src="img/classes/templier_f.png" alt=""></div>
 	</div>
+
 	<!-- Section Presentation du Serveur -->
 	<section id="Presentation">
 		<div class="section white">
@@ -201,7 +198,6 @@
 
 	<!-- Section Classes  -->
 	<section id="Classes">
-		<div class="section white">
 			<div id="left">
 				<div id="right">
 					<div class="row">
@@ -229,7 +225,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 
 
@@ -499,7 +494,10 @@
 					elem1.setAttribute("src", "img/classes/slayer_g.png");
 					elem2.setAttribute("src", "img/classes/slayer_f.png");
 					Materialize.fadeInImage('.test');
-          document.getElementById("text_modif").innerHTML = "<br /><p>test1</p>";          
+          document.getElementById("text_modif").innerHTML = 						"<br /><p>Équilibrage de la classe <span id='hover' style='text-decoration: underline'><strong>Spadassin</strong></span> par rapport à ses rivaux. Des <strong>dégâts diminués</strong> que ce soit au niveau PVP et PVE. Une taux coup critique plus dur à atteindre. Des buffs revus et baissés qui seront plus logiques lors de <strong>vos sessions pex / Instance.</strong></p>";
+		  $('#hover').mouseover(function() {
+			   Materialize.fadeInImage('.test');
+		  })
 					break;
 				case 2:
 					var elem1 = document.getElementById("img_left");
@@ -508,7 +506,10 @@
 					elem1.setAttribute("src", "img/classes/arca_g.png");
 					elem2.setAttribute("src", "img/classes/arca_f.png");
 					Materialize.fadeInImage('.test');
-          document.getElementById("text_modif").innerHTML = "<br /><p>test2</p>";
+          document.getElementById("text_modif").innerHTML = "<br /><p>Dans l'ensemble l'<span id='hover' style='text-decoration: underline'><strong>Arcaniste</strong></span> s'est vu accroîte <strong>ses dégats</strong> que ce soit dans <strong>les grottes les plus reculées</strong> où sur <strong>le champs de bataille</strong>. Des buffs réhaussés ! Vous aimerez le jouer pour sa capacité a <strong>nettoyer rapidement</strong> les monstres de nos instance !<br />Attention cependant à ne pas vous faire attraper, vous le regretterez au vue de vos <strong>points de vie.</strong></p>";
+		  $('#hover').mouseover(function() {
+			   Materialize.fadeInImage('.test');
+		  })
 					break;
 				case 3:
 					var elem1 = document.getElementById("img_left");
@@ -517,7 +518,10 @@
 					elem1.setAttribute("src", "img/classes/arba_g.png");
 					elem2.setAttribute("src", "img/classes/arba_f.png");
 					Materialize.fadeInImage('.test');
-          document.getElementById("text_modif").innerHTML = "<br /><p>test3</p>";
+          document.getElementById("text_modif").innerHTML = "<br />Une classe qui vous tape a une distance dérisoire ? <strong>C'est fini !</strong> La portée de l'</strong><strong><span id='hover' style='text-decoration: underline'>Arbalètrier</strong></span> a été modifié. Les buffs du tireur sont dorénavant plus cohérant (plus de pourcentage de Toucher par example). Une classe également utile en PVE ... l'essayer c'est l'adopter !</p>";
+		  $('#hover').mouseover(function() {
+			   Materialize.fadeInImage('.test');
+		  })
 					break;
 				case 4:
 					var elem1 = document.getElementById("img_left");
@@ -526,7 +530,10 @@
 					elem1.setAttribute("src", "img/classes/templier_g.png");
 					elem2.setAttribute("src", "img/classes/templier_f.png");
 					Materialize.fadeInImage('.test');
-          document.getElementById("text_modif").innerHTML = "<br /><p>test4</p>";
+          document.getElementById("text_modif").innerHTML = "<br /><p>Que ce soit en arène ou dans de longues instances venez découvrir une nouvelle classe. Des buffs modifiés ainsi que des <strong>points de vie grandement baissés</strong>. Le<span id='hover' style='text-decoration: underline'><strong>Templier</strong></span> possède dorénavant <strong>deux modes</strong> distinct...</p>";
+		  $('#hover').mouseover(function() {
+			   Materialize.fadeInImage('.test');
+		  })
 					break;
 				case 5:
 					var elem1 = document.getElementById("img_left");
