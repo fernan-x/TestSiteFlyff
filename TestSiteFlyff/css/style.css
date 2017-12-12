@@ -5,6 +5,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+body, a:hover {
+	cursor: url(../img/cursor.cur),progress !important;
+}
 
 @font-face {
     font-family: 'kelmscottromanregular';
