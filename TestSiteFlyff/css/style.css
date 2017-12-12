@@ -6,7 +6,18 @@
     transform: translate(-50%, -50%);
 }
 body, a:hover {
-	cursor: url(../img/cursor.cur),progress !important;
+	cursor: url(../img/cursor/epee.cur), auto !important;
+}
+p {
+	cursor: url(../img/cursor/text.cur), auto !important;
+}
+
+.a {
+	cursor: url(../img/cursor/onclic.cur), auto !important;
+}
+
+.btn {
+		cursor: url(../img/cursor/onclic.cur), auto !important;
 }
 
 @font-face {
