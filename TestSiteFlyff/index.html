@@ -92,7 +92,7 @@
 	<!-- Image Avant section Presentation  -->
 	<div class="parallax-container">
 		<div class="parallax backfd">
-			<!-- <img class="logo_typo" src="img/back/back_logo.png" alt=""> -->
+			<img class="logo-banner" src="img/logo/discord.jpg" alt="">
 		</div>
 	</div>
 
@@ -433,6 +433,14 @@
 					changeSlide($(data).data('cindex'));
 				}
 			});
+		});
+
+		function fade_logo(){
+		   $(".logo-banner").fadeOut(1500).delay(2000).fadeIn(2000).delay(2000); 
+		}
+
+		$(document).ready(function(){ 
+		    setInterval('fade_logo()',1000);
 		});
 
 		$('#send_mail').click(function() {
