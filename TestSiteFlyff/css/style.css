@@ -5,20 +5,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-body, a:hover {
-	cursor: url(../img/cursor/epee.cur), auto !important;
-}
-p {
-	cursor: url(../img/cursor/text.cur), auto !important;
-}
-
-.a {
-	cursor: url(../img/cursor/onclic.cur), auto !important;
-}
-
-.btn {
-		cursor: url(../img/cursor/onclic.cur), auto !important;
-}
 
 @font-face {
     font-family: 'kelmscottromanregular';
@@ -30,6 +16,27 @@ p {
     font-weight: normal;
     font-style: normal;
 
+}
+
+body, a:hover {
+	cursor: url(../img/cursor/epee.cur), auto !important;
+}
+p {
+	cursor: url(../img/cursor/text.cur), auto !important;
+}
+
+.a {
+	cursor: url(../img/cursor/onclic.cur), auto !important;
+}
+
+.btn-large {
+		cursor: url(../img/cursor/onclic.cur), auto !important;
+		border: 2px #FFFFFF solid;
+}
+
+.info {
+	  	border: 2px #000 solid;
+		border-radius: 5px;
 }
 
 .dropdown-item {
@@ -223,4 +230,16 @@ strong {
 	font-size: x-large;
 	margin-left: 20%;
 	margin-right: 20%;
+}
+
+#Contact {
+border-top: 1px solid white;
+}
+
+.sec_modal {
+    background-image: url(../img/test.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*border: 2px #424242 ridge;*/
 }

@@ -1,15 +1,25 @@
-Bonjour et Bienvenue sur le server <strong>Aelina Online</strong>.<br /><br />
+<h4>Condition général d'utilisation</h4>
+<p>
+	<h5>ARTICLE 1 : Objet</h5> Les présentes « conditions générales d'utilisation » ont pour objet l'encadrement juridique des modalités de mise à disposition des services du site DeltaFlyff et leur utilisation par « l'Utilisateur ». Les conditions générales d'utilisation doivent
+	être acceptées par tout Utilisateur souhaitant accéder au site. Elles constituent le contrat entre le site et l'Utilisateur. L’accès au site par l’Utilisateur signifie son acceptation lors de la création de son compte utilisateur.
 
-Vous trouverez sur cette page quelques unes des modifications apportées au jeu original tel que vous le connaissez déjà.<br />
+	<h5>ARTICLE 2 : Définitions</h5> La présente clause a pour objet de définir les différents termes essentiels du contrat : • Utilisateur : ce terme désigne toute personne qui utilise le site ou l'un des services proposés par le site. • Contenu utilisateur : ce sont les données
+	transmises par l'Utilisateur au sein du site. Membre : l'Utilisateur devient membre lorsqu'il est identifié sur le site. • Identifiant et mot de passe : c'est l'ensemble des informations nécessaires à l'identification d'un Utilisateur sur le site.
+	L'identifiant et le mot de passe permettent à l'Utilisateur d'accéder à des services réservés aux membres du site. Le mot de passe est confidentiel.
 
-<strong>Aelina Online</strong> ce n'est pas simplement notre travail. Vous êtes et serez les acteurs principaux au bon développement du serveur.<br />
+	<h5>ARTICLE 3 : Propriété intellectuelle</h5> Les marques, logos, signes et tout autre contenu du site font l'objet d'une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur. L'Utilisateur sollicite l'autorisation préalable du site pour toute
+	reproduction, publication, copie des différents contenus. L'Utilisateur s'engage à une utilisation des contenus du site dans un cadre strictement privé. Une utilisation des contenus à des fins commerciales est strictement interdite. Tout contenu
+	mis en ligne par l'Utilisateur est de sa seule responsabilité. L'Utilisateur s'engag e à ne pas mettre en ligne de contenus pouvant porter atteinte aux intérêts de tierces personnes. Tout recours en justice engagé par un tiers lésé contre le site
+	sera pris en charge par l'Utilisateur. Le contenu de l'Utilisateur peut être à tout moment et pour n'importe quelle raison supprimé ou modifié par le site. L'Utilisateur ne reçoit aucune justification et notification préalablement à la suppression
+	ou à la modification du contenu Utilisateur.
 
-<br /><br />Pour cela <strong>nous avons besoin de vous !</strong><br /><br />
+	<h5>ARTICLE 4 : Données personnelles</h5> Les informations demandées à l’inscription au site sont nécessaires et obligatoires pour la création du compte de l'Utilisateur. Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la vie
+	privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.
 
-Aidez-nous à améliorer le serveur, nous dire ce que vous attendez d'un futur serveur comme <strong>Aelina Online</strong>.<br />
 
-Concernant les rates, elles sont pour l'instant de <strong>EXP / DROP / PENYA</strong> mais suceptible de changer à l'avenir.<br />
+	<h5>ARTICLE 5 : Dons</h5> Il existe sur le site un système de « Don » celui-ci n’est en aucun cas obligatoire et pour cause. Quand l’utilisateur effectue une donation il s’engage à ne pas revenir sur la déscision du « Dons » en lui-même. Si la règle n’est pas respectée
+	les responsables du serveur se permette le droit de supprimer le compte définitivement.
 
-Une bêta ouverte se prépare très prochainement. Vous pourrez donc découvrir l'univers d'<strong>Aelina Online</strong>. Restez à l'affût !<br />
 
-<strong>L'espoir d'un serveur enfin correct, pas bâteau, et qui durera !</strong> Voilà ce qui nous permettra de nous envoler tous ensemble vers une nouvelle avanture !
+	<h5>ARTICLE 6 : Durée</h5> La durée du présent contrat est indéterminée. Le contrat produit ses effets à l'égard de l'Utilisateur à compter de l'utilisation du service.
+</p>
