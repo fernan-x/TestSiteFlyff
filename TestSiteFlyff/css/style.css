@@ -32,7 +32,8 @@ p {
 
 .btn-large {
 		cursor: url(../img/cursor/onclic.cur), auto !important;
-		border: 2px #FFFFFF solid;
+		border: 2px #000 solid;
+		color: #000;
 }
 
 .btnleft {
@@ -135,7 +136,7 @@ text-shadow: 1px 0px 22px #000;
 }
 
 .backfd {
-	background-image: url(../img/back/baner.jpg);
+	background-image: url(../img/test.png);
 	background-position: center;
 	position: absolute;
 	z-index: -1;
@@ -263,7 +264,7 @@ border-top: 1px solid white;
 }
 
 .sec_modal {
-    background-image: url(../img/test.png);
+    background-image: url(../img/back/baner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

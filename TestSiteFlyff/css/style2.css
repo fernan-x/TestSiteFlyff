@@ -159,7 +159,6 @@ border-top: 20px solid #3366CC;
   font-size: 15px;
   margin-top: 3%;
   margin-bottom: 3%;
-  letter-spacing: 2px;
 }
 
 .stf h3 {
@@ -174,7 +173,7 @@ border-top: 20px solid #3366CC;
 
 .stf #clh {
   margin-top: 10%;
-  color: #777;
+  color: #000;
   text-align: center;
 }
 
@@ -186,16 +185,17 @@ border-top: 20px solid #3366CC;
 .ch #cth {
   letter-spacing: 1px;
   text-align: center;
-  color: #777;
+  color: #000;
   display: block;
   margin-top: 5%;
   font-weight: bold;
 }
 
 .ch #cth b {
+
   display: block;
   letter-spacing: -1px;
-  font: 15px raleway;
+  font: 16px;
   font-weight: 800;
   color: #444;
 }
@@ -227,4 +227,5 @@ border-top: 20px solid #3366CC;
 #text_team {
   text-align: center;
   font-size: 15px;
+    color: #000;
 }
