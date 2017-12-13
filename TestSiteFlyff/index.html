@@ -30,20 +30,20 @@
 	<script type="text/javascript">
 		(function() {
 			emailjs.init("user_gG0wRllrFTTSu9Isxghyk");
-			document.oncontextmenu = new Function("return false");
-
-			function ffalse() {
-				return false;
-			}
-
-			function ftrue() {
-				return true;
-			}
-			document.onselectstart = new Function("return false");
-			if (window.sidebar) {
-				document.onmousedown = ffalse;
-				document.onclick = ftrue;
-			}
+			// document.oncontextmenu = new Function("return false");
+            //
+			// function ffalse() {
+			// 	return false;
+			// }
+            //
+			// function ftrue() {
+			// 	return true;
+			// }
+			// document.onselectstart = new Function("return false");
+			// if (window.sidebar) {
+			// 	document.onmousedown = ffalse;
+			// 	document.onclick = ftrue;
+			// }
 		})();
 	</script>
 
@@ -62,7 +62,7 @@
 	<!-- navbar -->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid the-navbar">
-			<div id="navbar" class="navbar-collapse collapse">
+			<div id="navbar" class="navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li class="dropdown">
 						<a href="#"><img class="logo" src="img/logo/aelina_online_flyff_typo.png" alt="Logo aeline Online"></a>
@@ -70,14 +70,17 @@
 							<li><a class="dropdown-item" href="#Presentation">Présentation</a></li>
 							<li><a class="dropdown-item" href="#Map">Nouveautées</a></li>
 							<li><a class="dropdown-item" href="#Classes">Modifications</a></li>
-							<li><a class="dropdown-item" href="#Equipe">Notre Équipe</a></li>
+							<li><a class="dropdown-item hide-on-med-and-down" href="#Equipe">Notre Équipe</a></li>
+							<li><a class="dropdown-item" href="#Equipe">Nous aider</a></li>
+							<li><a class="dropdown-item" href="#Equipe">Support</a></li>
 							<li class="dropdown-header dropdown-item">----------------------</li>
 							<li><a class="dropdown-item" href="#" target="_blank">Accès Site</a></li>
 							<li><a class="dropdown-item" href="#" target="_blank">Accès Forum</a></li>
+							<li><a class="dropdown-item" href="#" target="_blank">Voter</a></li>
 						</ul>
 					</li>
 				</ul>
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav navbar-right hideAt770">
 					<li><a href="#" style="font-size: 150%; color: #ffdea2; margin-top: 0.5%;">Accèder directement au Site</a></li>
 				</ul>
 			</div>
@@ -89,7 +92,7 @@
 	<!-- Image Avant section Presentation  -->
 	<div class="parallax-container">
 		<div class="parallax backfd">
-			<img class="logo_typo" src="img/back/back_logo.png" alt="">
+			<!-- <img class="logo_typo" src="img/back/back_logo.png" alt=""> -->
 		</div>
 	</div>
 
@@ -207,10 +210,10 @@
 						<br />
 						<p>Le Spadassin s'est vue apporter des modifications au niveau </p>
 					</div>
-					<div class='col s4 center-align hideOnPhone'>
+					<div class='col l4 center-align  hide-on-med-and-down'>
 						<img id="img_left" class="test" src="img/classes/slayer_g.png" alt="" />
 					</div>
-					<div class="carousel col s4 center-align">
+					<div class="carousel col l4 center-align">
 						<a class="carousel-item" data-cindex="1" href="#one!"><img class="materialboxed" data-caption="classe Spadassin" src="img/armes/H.png" alt="Hache"></a>
 						<a class="carousel-item" data-cindex="2" href="#two!"><img class="materialboxed" data-caption="classe Arcaniste"  src="img/armes/Baton.png" alt="Baton"></a>
 						<a class="carousel-item" data-cindex="3" href="#three!"><img class="materialboxed" data-caption="classe Arbaletrier"  src="img/armes/Arc.png" alt="Arc"></a>
@@ -220,7 +223,7 @@
 						<a class="carousel-item" data-cindex="7" href="#seven!"><img  class="materialboxed" data-caption="classe Envouteur"  src="img/armes/Baguette.png" alt="Baguette"></a>
 						<a class="carousel-item" data-cindex="8" href="#height!"><img class="materialboxed" data-caption="classe Chanoine"  src="img/armes/Poing.png" alt="Poing"></a>
 					</div>
-					<div class='col s4 center-align hideOnPhone'>
+					<div class='col l4 center-align  hide-on-med-and-down'>
 						<img id="img_right" class="test" src="img/classes/slayer_f.png" alt="" />
 					</div>
 				</div>
@@ -231,29 +234,27 @@
 
 
 	<!-- Image Avant Section Equipe  -->
-	<div class="parallax-container hideOnPhone">
+	<div class="parallax-container hide-on-med-and-down">
 		<div class="parallax"><img src="img/test3.jpg" alt=""></div>
 	</div>
 	<!--   Section Equipe  -->
-	<section id="Equipe" class="white hideOnPhone team" style="height: 450px;">
+	<section id="Equipe" class="white hide-on-med-and-down team" style="height: 500px;">
 		<!--<div class="footer_trp">-->
 		<div class="team_trp">
 			<div class="stf">
 				<div id="sideb">
 					<div class="ch ch0"><img src="img/logo/logo_team.png" alt="" />
-						<h1>Notre equipe en or</h1>
-						<span id="clh">Clique sur les photos pour avoir des informations!</span></div>
+						<h1>AelinaOnline Team</h1>
+						<span id="clh">Parcours les photos pour en apprendre un peu plus sur l'équipe !</span></div>
 					<div class="ch ch1"><img src="img/team/simon_color.jpg" alt="" />
-						<h1>Simon Ak</h1>
-						<h2>Développeur</h2><span id="cth"><b>Rôle:</b>Fondateur</span>
-						<p id="text_team">On l'aime tellement c'est un BeauGoss
-							<br/><br/>"Je code avec mes fesses !"</p>
+						<h1>Simon</h1>
+						<h2>Développeur</h2><span id="cth"><b>Rôle</b>Fondateur</span>
+						<p id="text_team">Codez toujours comme si la personne qui allait maintenir votre code était un violent psychopathe qui sait où vous habitez.</p>
 					</div>
 					<div class="ch ch2"><img src="img/team/Robin_color.jpg" alt="" />
 						<h1>Robin</h1>
-						<h2>Cg Artist</h2><span id="cth"><b>Rôle:</b>Graphiste</span>
-						<p id="text_team">Je fais des dessins du turfu
-							<br/><br/>"Je suis passé à la 18k hier ..."</p>
+						<h2>Graphiste 2D/3D</h2><span id="cth"><h3>Rôle</h3>Graphiste</span>
+						<p id="text_team">Les lettres c’est chiant, parle moi en pixels</p>
 					</div>
 					<div class="ch ch3"><img src="img/team/fabien_color.jpg" alt="" />
 						<h1>Fabien</h1>
@@ -267,28 +268,24 @@
 						<p id="text_team">J'écris souvent en MAJUSCULE mais promis, je suis gentil !</p>
 					</div>
 					<div class="ch ch5"><img src="img/team/Abricot_color.jpg" alt="" />
-						<h1>ODXY</h1>
-						<h2>ADVERTISING MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-						<p id="text_team">Es supervisado por: Cal'Syee.
-							<br/><br/>Responsabilidad: Básica.</p>
+						<h1>Adrien</h1>
+						<h2></h2><span id="cth"><b>Rôle</b>Maître Du Jeu</span>
+						<p id="text_team">Si le plan A ne fonctionne pas...il reste encore 25 lettres dans l'alphabet.</p>
 					</div>
 					<div class="ch ch6"><img src="img/team/licht_color.jpg" alt="" />
-						<h1>TARDIS</h1>
-						<h2>CHALLENGES MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-						<p id="text_team">Es supervisado por: Skye y Cambria.
-							<br/><br/>Responsabilidad: Básica.</p>
+						<h1>Alex</h1>
+						<span id="cth"><b>Rôle</b>Modérateur</span>
+						<p id="text_team"></p>
 					</div>
 					<div class="ch ch7"><img src="img/team/Kero_color.jpg" alt="" />
-						<h1>TARDIS</h1>
-						<h2>CHALLENGES MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-						<p id="text_team">Es supervisado por: Skye y Cambria.
-							<br/><br/>Responsabilidad: Básica.</p>
+						<h1></h1>
+						<span id="cth"><b>Rôle</b>Modérateur</span>
+						<p id="text_team"></p>
 					</div>
 					<div class="ch ch8"><img src="" alt="" />
-						<h1>TARDIS</h1>
-						<h2>CHALLENGES MOD</h2><span id="cth"><b>ESTADO:</b>ACTIVO</span>
-						<p id="text_team">Es supervisado por: Skye y Cambria.
-							<br/><br/>Responsabilidad: Básica.</p>
+						<h1>Christopher</h1>
+						<span id="cth"><b>Rôle</b>Community Manager</span>
+						<p id="text_team"></p>
 					</div>
 				</div>
 				<div id="botta">
@@ -299,18 +296,18 @@
 					<span class="a a5" style="background-image:url(img/team/Abricot_B.jpg);"></span>
 					<span class="a a6" style="background-image:url(img/team/licht_B.jpg);"></span>
 					<span class="a a7" style="background-image:url(img/team/Kero_B.jpg);"></span>
-					<span class="a a8" style="background-image:url(img/team/);"></span>
+					<!-- <span class="a a8" style="background-image:url(img/team/);"></span> -->
 				</div>
 			</div>
 		</div>
 		<!--</div>-->
 	</section>
 
-	<!-- Image Avant Section Modal  -->
+	<!-- Section Modal  -->
 	<div class="parallax-container sec_modal">
 		<div class="row">
 			<!-- Modal Trigger -->
-			<button data-target="modal1" class="btn-large transparent modal-trigger waves-effect waves-green ">Questionnaire</button>
+			<button data-target="modal1" class="btn-large btnleft transparent modal-trigger waves-effect waves-green">Questionnaire</button>
 			<!-- Modal Structure -->
 			<form class="col s12" name="formulaire">
 				<div id="modal1" class="modal modal-fixed-footer">
@@ -343,7 +340,9 @@
 							<label for="receive_mail">Recevoir un email concernant la beta.</label>
 						</div>
 						<div class="g-recaptcha" data-sitekey="6LcSDzwUAAAAADzI6Uz9GRdBuAde0FH805a7i86Q"></div>
-						<div class="info"><p>Nous avons désactivé le Questionnaire pour le moment.Il sera très vite de retour !<i class="material-icons">announcement</i></p></div>
+						<div class="info">
+							<p>Nous avons désactivé le Questionnaire pour le moment.Il sera très vite de retour !<i class="material-icons">announcement</i></p>
+						</div>
 					</div>
 					<div class="modal-footer">
 						<a href="#" class="modal-action modal-close btn waves-effect waves-red transparent btn-flat ">Annuler</a>
@@ -353,7 +352,7 @@
 			</form>
 
 			<!-- Modal Trigger -->
-			<button data-target="modal2" class="btn-large transparent modal-trigger waves-effect waves-green  ">Voter</button>
+			<button data-target="modal2" class="btn-large btnright transparent modal-trigger waves-effect waves-green">Voter</button>
 
 			<!-- Modal Structure -->
 			<div id="modal2" class="modal modal-fixed-footer">
@@ -365,7 +364,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Section Modal  -->
+
 
 
 	<!-- Fin de page Footer -->
@@ -376,18 +375,20 @@
 					<div class="col l4 s12">
 						<h4 class="white-text">Nous Contacter</h4>
 						<p class="grey-text text-lighten-4"><i class="material-icons left">email</i>team.AelinaOnline@gmail.com</p>
-						<p class="grey-text text-lighten-4"><i class="material-icons left">phone</i>Ta cru tu allais l'avoir?</p>
+						<a href="https://discord.gg/ZGWQh" target="_blank">
+              			<img class="follow" src="img/discordbt.png" alt="btnDiscord"/>
+          				</a>
 					</div>
 					<div class="col l4 s12">
 						<h4 class="white-text">Nous Suivre</h4>
 						<a href="https://facebook.com/AelinaOnline/" target="_blank">
-              			<i class="inverted facebook icon"></i>
-          			</a>
+              			<img class="follow" src="img/facebookbt.png" alt="btnFacebook"/>
+          				</a>
 						<a href="https://twitter.com/AelinaOnline" target="_blank">
-              			<i class="inverted twitter icon"></i>
+              			<img class="follow" src="img/twitterbt.png" alt="btnTwitter"/>
             			</a>
 						<a href="https://youtube.com" target="_blank">
-  						<i class="inverted youtube icon"></i>
+  						<img class="follow" src="img/youtubebt.png" alt="btnYoutube"/>
   					</a>
 					</div>
 					<div class="col l4 s12">
@@ -416,10 +417,10 @@
 
 		$(document).ready(function() {
 			$('.modal').modal({
-			dismissible: true,
-			opacity: 0.8,
-			inDuration: 500,
-			outDuration: 500
+				dismissible: true,
+				opacity: 0.8,
+				inDuration: 500,
+				outDuration: 500
 			});
 		});
 
@@ -462,7 +463,7 @@
 					elem2.setAttribute("src", "img/classes/slayer_f.png");
 					Materialize.fadeInImage('.test');
 					document.getElementById("text_modif").innerHTML =
-						"<br /><p>Équilibrage de la classe <span id='hover' style='text-decoration: underline'><strong>Spadassin</strong></span> par rapport à ses rivaux. Des <strong>dégâts diminués</strong> que ce soit au niveau PVP et PVE. Une taux coup critique plus dur à atteindre. Des buffs revus et baissés qui seront plus logiques lors de <strong>vos sessions pex / Instance.</strong></p>";
+						"<br /><p>Équilibrage de la classe <span id='hover' style='text-decoration: underline'><strong>Spadassin</strong></span> par rapport à ses rivaux. Des <strong>dégâts diminués</strong> que ce soit au niveau PVP et PVE. Une taux coup critique plus dur à atteindre. Des buffs revus et baissés qui seront plus logiques lors de vos sessions de jeu.</p>";
 					$('#hover').mouseover(function() {
 						Materialize.fadeInImage('.test');
 					})
@@ -488,7 +489,7 @@
 					elem2.setAttribute("src", "img/classes/arba_f.png");
 					Materialize.fadeInImage('.test');
 					document.getElementById("text_modif").innerHTML =
-						"<br /><p>La portée de l'</strong><strong><span id='hover' style='text-decoration: underline'>Arbalètrier</strong></span> a été modifié. Les buffs du tireur sont dorénavant <strong>plus cohérants</strong> (plus de pourcentage de Toucher par example). Une classe également <strong>utile en PVE</strong> ... l'essayer c'est l'adopter !</p>";
+						"<br /><p>La portée de l'</strong><strong><span id='hover' style='text-decoration: underline'>Arbalètrier</strong></span> a été modifié. Les buffs du tireur sont dorénavant <strong>plus cohérants</strong> (plus de pourcentage de Toucher par exemple). Une classe également <strong>utile en PVE</strong> ... l'essayer c'est l'adopter !</p>";
 					$('#hover').mouseover(function() {
 						Materialize.fadeInImage('.test');
 					})
@@ -527,7 +528,7 @@
 					elem2.setAttribute("src", "img/classes/sylphide_f.png");
 					Materialize.fadeInImage('.test');
 					document.getElementById("text_modif").innerHTML =
-						"<br /><p>Sur <strong>Aelina Online</strong> le <span id='hover' style='text-decoration: underline'><strong>Sylphide</strong></span> n'est pas seulement réservé pour la Guerre des Guildes. En effet, grâce à ses <strong>dégats augmentés</strong> contre les montres vous pourrez le jouer également en PVE au même titre que l'assassin.</p>";
+						"<br /><p>Sur <strong>Aelina Online</strong> le <span id='hover' style='text-decoration: underline'><strong>Sylphide</strong></span> n'est pas seulement réservé pour la Guerre des Guildes. En effet, grâce à ses <strong>dégats augmentés</strong> contre les montres vous pourrez le jouer également en PVE au même titre que l'Spadassin.</p>";
 					$('#hover').mouseover(function() {
 						Materialize.fadeInImage('.test');
 					})

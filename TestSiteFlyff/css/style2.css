@@ -61,16 +61,31 @@ body {
   border: 5px solid #a03e63;
 }
 
-.stf #sideb .ch1, .stf #sideb .ch2, .stf #sideb .ch3, .stf #sideb .ch4, .stf #sideb .ch5 {
-  border-top: 20px solid #941010;
+.stf #sideb .ch1 {
+  border-top: 20px solid #FF0099;
+}
+
+.stf #sideb .ch2 {
+border-top: 20px solid #e300ff;
+}
+
+.stf #sideb .ch3 {
+border-top: 20px solid #FF0099;
+}
+.stf #sideb .ch4 {
+border-top: 20px solid #FF0099;
+}
+
+.stf #sideb .ch5 {
+border-top: 20px solid #3366CC;
 }
 
 .stf #sideb .ch6 {
-  border-top: 20px solid #437d9b;
+  border-top: 20px solid #993300;
 }
 
 .stf #sideb .ch7, .stf #sideb .ch8, .stf #sideb .ch9 {
-  border-top: 20px solid #56893f;
+  border-top: 20px solid #993300;
 }
 
 .stf #sideb .ch10, .stf #sideb .ch11 {
@@ -134,22 +149,24 @@ body {
 }
 
 .stf h1 {
-  font: 32px raleway;
-  letter-spacing: -1px;
+	font-size: 30px;
   font-weight: 900;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
 .stf h2 {
-  font: 10px tahoma;
+  font-size: 15px;
   margin-top: 3%;
   margin-bottom: 3%;
   letter-spacing: 2px;
 }
 
+.stf h3 {
+  font-size: 20px;
+}
+
 .stf #clh, .stf p {
-  font: 13px sans-serif;
   text-align: justify;
   font-weight: bold;
   display: block;
@@ -167,7 +184,6 @@ body {
 }
 
 .ch #cth {
-  font: 10px tahoma;
   letter-spacing: 1px;
   text-align: center;
   color: #777;
@@ -210,11 +226,5 @@ body {
 
 #text_team {
   text-align: center;
-}
-
-/* 950px */
-@media screen and (max-width: 950px) {
-  .hideOnPhone {
-    display: none;
-  }
+  font-size: 15px;
 }
