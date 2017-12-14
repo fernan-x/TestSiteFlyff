@@ -40,16 +40,16 @@ p {
 	width: 190px;
 	position: absolute;
 	left: 0px;
-	top: 47%;
-	margin-left: 25%;
+	top: 40%;
+	margin-left: 45%;
 }
 
 .btnright {
 	width: 190px;
 	position: absolute;
-	right: 0px;
-	top: 47%;
-	margin-right: 25%;
+	left: 0px;
+	top: 55%;
+	margin-left: 45%;
 }
 
 .info {
@@ -136,7 +136,7 @@ text-shadow: 1px 0px 22px #000;
 }
 
 .backfd {
-	background-image: url(../img/test.png);
+	background-image: url(../img/back/fd2.png);
 	background-position: center;
 	position: absolute;
 	z-index: -1;
@@ -178,7 +178,7 @@ strong {
 
 .footer {
   padding-top: 0px !important;
-  background-image: url(../img/MapLoading6.jpg);
+  background-image: url(../img/back/footer.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border-color: #000;
@@ -192,7 +192,7 @@ strong {
 
 .team {
   padding-top: 0px !important;
-  background-image: url(../img/try.png);
+  background-image: url(../img/back/fd1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -279,18 +279,21 @@ border-top: 1px solid white;
 }
 
 @media screen and (max-width: 770px) {
-.btnleft {
-		top: 40%;
-		left: 0px;
-		margin-left: 25%;
+	.btnleft {
+		width: 190px;
 		position: absolute;
-}
-.btnright {
-	top: 52%;
-	left: 0px;
-	margin-left: 50%;
-	position: absolute;
-}
+		left: 0px;
+		top: 40%;
+		margin-left: 25%;
+	}
+
+	.btnright {
+		width: 190px;
+		position: absolute;
+		left: 0px;
+		top: 55%;
+		margin-left: 25%;
+	}
 
 .hideAt770 {
     display: none !important;
