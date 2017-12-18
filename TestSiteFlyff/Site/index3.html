@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Aelina Online</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<!-- Our Custom CSS -->
+	<link rel="stylesheet" href="css/style3.css">
+	<!-- Scrollbar Custom CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+	<!-- jQuery Custom Scroller CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="https://use.fontawesome.com/488cd0d488.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+
+	<button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn bg-danger" style="height:40px;">
+			<span class="btnLogIn"></span>
+		</button>
+
+	<div class="wrapper">
+		<!-- Sidebar Holder -->
+		<nav id="sidebar">
+			<div class="sidebar-header text-align">
+				<img style="width:200px;" src="img/logo/aelina_online_flyff_typo.png" alt="">
+			</div>
+			<ul class="list-unstyled components">
+				<p><u>Mon Compte</u></p>
+				<li>
+					<a href="#">- Gérer mon compte</a>
+				</li>
+				<li>
+					<a href="#">- Recharger ses Points Lina</a>
+				</li>
+				<li>
+					<a href="#">- Voter</a>
+				</li>
+				<li>
+					<a href="#">- Nous Contacter</a>
+				</li>
+				<h5>Vote Points : <span>30k</span></h5>
+				<h5>Lina Points : <span>30k</span></h5>
+			</ul>
+			<ul class="list-unstyled CTAs">
+				<li><a href="" class="deco">Déconnexion</a></li>
+			</ul>
+			<ul class="list-unstyled statut">
+				<p><u>Informations Serveur</u></p>
+
+				<li>
+					<a>Serveur : <span style="color:green;">ON</span></a>
+				</li>
+				<li>
+					<a>Connecté : <span>100 000</span></a>
+				</li>
+				<li>
+					<a>Record Connecté : <span>1 000 000 000</span></a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Page Content Holder -->
+		<div id="content">
+
+			<nav class="navbar navbar-default">
+				<div class="container q">
+					<div class="col-sm-2">
+						<a id="btnForum" class="nav-item nav-link active text-center text-white" href="#">Forum</a>
+					</div>
+					<div class="col-sm-2">
+						<a id="btnBoutique" class="nav-item nav-link text-center text-white" href="#">Boutique</a>
+					</div>
+					<div class="col-sm-4">
+						<img id="logo" src="img/logo/aelina_online_flyff_compo.png" class="lg-baner rounded mx-auto d-block" style="width:220px;" alt="">
+					</div>
+					<div id="btnJouer" class="col-sm-2">
+						<a class="nav-item nav-link active text-center text-white" href="#">Jouer</a>
+					</div>
+					<div id="btnSupport" class="col-sm-2">
+						<a class="nav-item nav-link text-center text-white" href="#">Support</a>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Première Ligne -->
+			<div class="row">
+				<div class="col-sm-8">
+					<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+						<ol class="carousel-indicators">
+							<li data-target="#carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel" data-slide-to="1"></li>
+							<li data-target="#carousel" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="img/carou.jpg" alt="First slide">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/carou.jpg" alt="Second slide">
+								<div class="carousel-caption d-none d-md-block">
+									<h3>Test Titre 2</h3>
+									<p>Voici le contenue </p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/carou.jpg" alt="Third slide">
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    							<span class="sr-only"></span>
+  							</a>
+						<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="sr-only"></span>
+							</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<button id="download" type="button" class="btn btn-dark dl"><i class="fa fa-cloud-download" aria-hidden="true"></i> Téléchargement</button>
+					<div class="line"></div>
+					<a class="twitter-timeline" data-lang="fr" data-height="270" data-theme="dark" data-link-color="#B40431" href="https://twitter.com/MrAntoineDaniel?ref_src=twsrc%5Etfw">Tweets by MrAntoineDaniel</a>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+			</div>
+			<div class="line"></div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="card border-dark mb-3" style="max-width: 200rem;">
+						<div class="card-header">Venez découvrir les<span class="text-danger"> Promotions</span> de la Boutique</div>
+						<div class="card-body text-dark">
+							<div id="carouselBoutique" class="carousel slide" data-ride="carousel" data-interval="3000">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="img/carou.jpg" alt="First slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="img/carou.jpg" alt="Second slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="img/carou.jpg" alt="Third slide">
+									</div>
+								</div>
+								<a class="carousel-control-prev text-danger" href="#carouselBoutique" role="button" data-slide="prev">
+										<i class="fa fa-chevron-left" aria-hidden="true"></i>
+									</a>
+								<a class="carousel-control-next text-danger" href="#carouselBoutique" role="button" data-slide="next">
+										<i class="fa fa-chevron-right" aria-hidden="true"></i>
+									</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-sm-5">
+					<div class="card border-dark mb-3">
+						<div class="card-header">Les <span class="text-danger"> Top</span> du serveur</div>
+						<div class="card-body text-dark">
+							<div class='row'>
+								<div class="col-sm-4">
+									<h2>Souverin</h2>
+									<img class="roundedImage" src='img/bg.png'>
+									<p>Moi</p>
+								</div>
+								<div class="col-sm-4 text-align">
+									<h2>MVP</h2>
+									<img class="roundedImage mx-auto d-block" src='img/bg.png'>
+									<p>Moi Aussi</p>
+								</div>
+								<div class="col-sm-4">
+									<h3>Guild Siège</h3>
+									<img class="roundedImage" src='img/bg.png'>
+									<p>La mienne</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="viewer">
+					<iframe src="dark.php"></iframe>
+					</div>
+				</div>
+			</div>
+			<!-- Fin de page Footer -->
+			<footer class="footer text-white" id="Contact">
+				<div class="footer_trp">
+					<div class="container">
+						<div class="row" style="padding-top:10px;">
+							<div class="col-sm">
+								<h4>Nous Contacter</h4>
+								<p style="font-size: 18px;">team.AelinaOnline@gmail.com</p>
+								<a href="https://discord.gg/ZGWQh" target="_blank">
+			              			<img class="follow" src="img/logo/discordbt.png" alt="btnDiscord"/>
+			          				</a>
+							</div>
+							<div class="col-sm">
+								<h4>Nous Suivre</h4>
+								<a href="https://facebook.com/AelinaOnline/" target="_blank">
+			              			<img class="follow" src="img/logo/facebookbt.png" alt="btnFacebook"/>
+			          				</a>
+								<a href="https://twitter.com/AelinaOnline" target="_blank">
+			              			<img class="follow" src="img/logo/twitterbt.png" alt="btnTwitter"/>
+			            			</a>
+								<a href="https://youtube.com" target="_blank">
+			  						<img class="follow" src="img/logo/youtubebt.png" alt="btnYoutube"/>
+			  					</a>
+							</div>
+							<div class="col-sm">
+								<h4>À propos . . . </h4>
+								<p style="font-size:small;">Aelina Online est un serveur de jeu privée. Le contenu disponible sur le site vous est proposé par des développeurs indépendants. N'hésitez surtout pas à nous contacter si vous avez la moindre suggestion.<br /> Cordialement,<br/>L'équipe Aelina
+									Online.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="footer-copyright">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<p class="text-center">© 2017-2018 Fabien & Ilyes, All rights reserved.</p>
+								</div>
+								<div class="col">
+									<a data-target="modal3">
+										<p class="text-center">Licence</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<div class="overlay" style="display:none;"></div>
+
+
+	</div>
+
+	<script type="text/javascript">
+	function fade_logo(){
+		$('#logo').animateCss('fadeIn');
+	}
+		$.fn.extend({
+			animateCss: function(animationName, callback) {
+				var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+				this.addClass('animated ' + animationName).one(animationEnd, function() {
+					$(this).removeClass('animated ' + animationName);
+					if (callback) {
+						callback();
+					}
+				});
+				return this;
+			}
+		});
+
+		$(document).ready(function() {
+			$("#sidebar").mCustomScrollbar({
+				theme: "minimal"
+			});
+
+			setInterval('fade_logo()', 3000);
+
+			$('#download').mouseover(function() {
+				$('#download').removeClass('btn-dark');
+				$('#download').addClass('btn-outline-danger');
+				$('#download').animateCss('flipInX');
+			});
+
+			$('#download').mouseleave(function() {
+				$('#download').removeClass('btn-outline-danger');
+				$('#download').addClass('btn-dark');
+			});
+
+			$('#btnForum').mouseover(function() {
+				$(this).animateCss('swing');
+			});
+
+			$('#btnJouer').mouseover(function() {
+				$(this).animateCss('shake');
+			});
+
+			$('#btnBoutique').mouseover(function() {
+				$(this).animateCss('shake');
+			});
+
+			$('#btnSupport').mouseover(function() {
+				$(this).animateCss('swing');
+			});
+
+			$('.follow').mouseover(function() {
+				$(this).animateCss('swing');
+			});
+
+			$('#sidebarCollapse').on('mouseenter', function() {
+				$('#sidebarCollapse').animate({
+					width: "200px"
+				});
+				$('.btnLogIn').html('Se Connecter');
+			});
+
+			$('#sidebarCollapse').mouseleave(function() {
+				$('#sidebarCollapse').animate({
+					width: "10px"
+				}, 300);
+				$('.btnLogIn').html('').delay(1000);
+			});
+
+			$('#dismiss, .overlay').on('click', function() {
+				$('#sidebar').removeClass('active');
+				$('#sidebarCollapse').fadeIn(1000);
+				$('.overlay').attr('style', "display:none;");
+				$('.overlay').fadeOut();
+			});
+
+			$('#sidebarCollapse').on('click', function() {
+				$('#sidebarCollapse').fadeOut();
+				$('#sidebar').addClass('active');
+				$('.overlay').attr('style', "display:block;");
+				$('.overlay').fadeIn();
+				$('.collapse.in').toggleClass('in');
+				$('a[aria-expanded=true]').attr('aria-expanded', 'false');
+			});
+		});
+	</script>
+</body>
+
+</html>

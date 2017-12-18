@@ -15,7 +15,6 @@
          url('../fonts/kelmscot/KELMSCOT-webfont.svg#kelmscottromanregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body, a:hover {
@@ -25,10 +24,9 @@ p {
 	cursor: url(../img/cursor/text.cur), auto !important;
 }
 
-.a, .follow, .materialboxed {
+.a, .follow {
 	cursor: url(../img/cursor/onclic.cur), auto !important;
 }
-
 
 .btn-large {
 		cursor: url(../img/cursor/onclic.cur), auto !important;
@@ -104,7 +102,7 @@ filter: blur(20px);
   margin: 0 auto;
   min-width: 0% !important;
   min-height: 0% !important;
-  width: 40%;
+  width: 50%;
   z-index: 0;
 }
 
@@ -137,8 +135,8 @@ text-shadow: 1px 0px 22px #000;
 
 .backfd {
 	background-image: url(../img/back/fd2.png);
-	background-position: center;
-	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
 	z-index: -1;
 }
 
@@ -179,6 +177,8 @@ strong {
 .footer {
   padding-top: 0px !important;
   background-image: url(../img/back/footer.jpg);
+  background-size: cover;
+  color: #FFF;
   background-repeat: no-repeat;
   background-position: center;
   border-color: #000;
@@ -287,6 +287,13 @@ border-top: 1px solid white;
 		margin-left: 25%;
 	}
 
+	/* .logo-banner {
+	  margin: 0 auto;
+	  min-width: 0% !important;
+	  min-height: 0% !important;
+	  width: 60%;
+	  z-index: 0;
+  } */
 	.btnright {
 		width: 190px;
 		position: absolute;
@@ -300,3 +307,13 @@ border-top: 1px solid white;
   }
 
 }
+
+/* @media screen and (max-width: 600px) {
+	.logo-banner {
+	  margin: 0 auto;
+	  min-width: 0% !important;
+	  min-height: 0% !important;
+	  width: 70%;
+	  z-index: 0;
+  }
+} */

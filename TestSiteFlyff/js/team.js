@@ -7,7 +7,7 @@ $(document).ready(function() {
 		$('.a5').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
 		$('.a6').attr('style', "background-image:url('img/team/licht_B.jpg');");
         $('.a7').attr('style', "background-image:url('img/team/Kero_B.jpg');");
-        $('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.a8').attr('style', "background-image:url('img/team/christo_B.png');");
         $('.ch1').show(500);
         $('.ch0, .ch2, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8').hide(500);
         $(this).addClass('acth');
@@ -21,7 +21,7 @@ $(document).ready(function() {
 		$('.a5').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
 		$('.a6').attr('style', "background-image:url('img/team/licht_B.jpg');");
         $('.a7').attr('style', "background-image:url('img/team/Kero_B.jpg');");
-        $('.a8').attr('style', "background-image:url('img/team/.jpg');");
+        $('.a8').attr('style', "background-image:url('img/team/christo_B.png');");
         $('.ch2').show(500);
         $('.ch0, .ch1, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8').hide(500);
         $(this).addClass('acth');
@@ -35,7 +35,7 @@ $(document).ready(function() {
 		$('.a5').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
 		$('.a6').attr('style', "background-image:url('img/team/licht_B.jpg');");
 		$('.a7').attr('style', "background-image:url('img/team/Kero_B.jpg');");
-		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/christo_B.png');");
         $('.ch3').show(500);
         $('.ch0, .ch1, .ch2, .ch4, .ch5, .ch6, .ch7, .ch8').hide(500);
         $(this).addClass('acth');
@@ -49,7 +49,7 @@ $(document).ready(function() {
 		$('.a5').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
 		$('.a6').attr('style', "background-image:url('img/team/licht_B.jpg');");
 		$('.a7').attr('style', "background-image:url('img/team/Kero_B.jpg');");
-		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/christo_B.png');");
         $('.ch4').show(500);
         $('.ch0, .ch1, .ch3, .ch2, .ch5, .ch6, .ch7, .ch8').hide(500);
         $(this).addClass('acth');
@@ -63,7 +63,7 @@ $(document).ready(function() {
 		$('.a5').attr('style', "background-image:url('img/team/Abricot_color.jpg');");
 		$('.a6').attr('style', "background-image:url('img/team/licht_B.jpg');");
 		$('.a7').attr('style', "background-image:url('img/team/Kero_B.jpg');");
-		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/christo_B.png');");
         $('.ch5').show(500);
         $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch6, .ch7, .ch8').hide(500);
         $(this).addClass('acth');
@@ -77,7 +77,7 @@ $(document).ready(function() {
 		$('.a5').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
 		$('.a6').attr('style', "background-image:url('img/team/licht_color.jpg');");
 		$('.a7').attr('style', "background-image:url('img/team/Kero_B.jpg');");
-		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/christo_B.png');");
         $('.ch6').show(500);
         $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch5, .ch7, .ch8').hide(500);
         $(this).addClass('acth');
@@ -91,7 +91,7 @@ $(document).ready(function() {
 		$('.a5').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
 		$('.a6').attr('style', "background-image:url('img/team/licht_B.jpg');");
 		$('.a7').attr('style', "background-image:url('img/team/Kero_color.jpg');");
-		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/christo_B.png');");
         $('.ch7').show(500);
         $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch5, .ch6, .ch8').hide(500);
         $(this).addClass('acth');
@@ -105,7 +105,7 @@ $(document).ready(function() {
 		$('.a5').attr('style', "background-image:url('img/team/Abricot_B.jpg');");
 		$('.a6').attr('style', "background-image:url('img/team/licht_B.jpg');");
 		$('.a7').attr('style', "background-image:url('img/team/Kero_B.jpg');");
-		$('.a8').attr('style', "background-image:url('img/team/.jpg');");
+		$('.a8').attr('style', "background-image:url('img/team/christo_color.png');");
         $('.ch8').show(500);
         $('.ch0, .ch1, .ch3, .ch2, .ch4, .ch5, .ch6, .ch7').hide(500);
         $(this).addClass('acth');
