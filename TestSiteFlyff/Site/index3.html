@@ -48,8 +48,12 @@
 				<li>
 					<a href="#">- Nous Contacter</a>
 				</li>
-				<h5>Vote Points : <span>30k</span></h5>
-				<h5>Lina Points : <span>30k</span></h5>
+				<li>
+					<a>Vote Points : <span>100k</span></a>
+				</li>
+				<li>
+					<a>Lina Points : <span>1 000 000 000</span></a>
+				</li>
 			</ul>
 			<ul class="list-unstyled CTAs">
 				<li><a href="" class="deco">Déconnexion</a></li>
@@ -165,22 +169,31 @@
 				</div>
 				<div class="col-sm-5">
 					<div class="card border-dark mb-3">
-						<div class="card-header">Les <span class="text-danger"> Top</span> du serveur</div>
-						<div class="card-body text-dark">
+						<div class="card-header">
+							<div class="row">
+								<div class="col-sm">
+								<p class="text-left">Les <span class="text-danger">Top</span> du serveur</p>
+								</div>
+								<div class="col-sm">
+								<p class="text-right">Accèder au <span class="text-danger">Classement</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="card-body text-dark  text-center">
 							<div class='row'>
 								<div class="col-sm-4">
 									<h2>Souverin</h2>
-									<img class="roundedImage" src='img/bg.png'>
+									<img class="roundedImage Souv" src='img/bg.png'>
 									<p>Moi</p>
 								</div>
 								<div class="col-sm-4 text-align">
 									<h2>MVP</h2>
-									<img class="roundedImage mx-auto d-block" src='img/bg.png'>
+									<img class="roundedImage MVP" src='img/bg.png'>
 									<p>Moi Aussi</p>
 								</div>
 								<div class="col-sm-4">
 									<h3>Guild Siège</h3>
-									<img class="roundedImage" src='img/bg.png'>
+									<img class="roundedImage GS" src='img/bg.png'>
 									<p>La mienne</p>
 								</div>
 							</div>
@@ -188,9 +201,10 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="viewer">
+					<!-- <div class="viewer">
 					<iframe src="dark.php"></iframe>
-					</div>
+					</div> -->
+					<iframe src="https://discordapp.com/widget?id=364110828623888384&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
 				</div>
 			</div>
 			<!-- Fin de page Footer -->
@@ -219,7 +233,7 @@
 							</div>
 							<div class="col-sm">
 								<h4>À propos . . . </h4>
-								<p style="font-size:small;">Aelina Online est un serveur de jeu privée. Le contenu disponible sur le site vous est proposé par des développeurs indépendants. N'hésitez surtout pas à nous contacter si vous avez la moindre suggestion.<br /> Cordialement,<br/>L'équipe Aelina
+								<p style="font-size:small;">Aelina Online est un serveur de jeu privé. Le contenu disponible sur le site vous est proposé par des développeurs indépendants. N'hésitez surtout pas à nous contacter si vous avez la moindre suggestion.<br /> Cordialement,<br/>L'équipe Aelina
 									Online.
 								</p>
 							</div>
@@ -232,7 +246,7 @@
 									<p class="text-center">© 2017-2018 Fabien & Ilyes, All rights reserved.</p>
 								</div>
 								<div class="col">
-									<a data-target="modal3">
+									<a data-toggle="modal" data-target="#ModalLicence">
 										<p class="text-center">Licence</p>
 									</a>
 								</div>
@@ -288,11 +302,11 @@
 			});
 
 			$('#btnJouer').mouseover(function() {
-				$(this).animateCss('shake');
+				$(this).animateCss('swing');
 			});
 
 			$('#btnBoutique').mouseover(function() {
-				$(this).animateCss('shake');
+				$(this).animateCss('swing');
 			});
 
 			$('#btnSupport').mouseover(function() {
@@ -300,7 +314,7 @@
 			});
 
 			$('.follow').mouseover(function() {
-				$(this).animateCss('swing');
+				$(this).animateCss('jello');
 			});
 
 			$('#sidebarCollapse').on('mouseenter', function() {
