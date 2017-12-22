@@ -11,6 +11,45 @@
     font-style: normal;
 }
 
+@keyframes anim {
+	0% {
+		width: 10px;
+	}
+
+	50% {
+		width: 125px;
+	}
+
+	100% {
+		width: 250px;
+	}
+}
+
+@keyframes anim2 {
+    0% {
+        width: 125px;
+    }
+
+    100% {
+        width: 250px;
+    }
+}
+
+#sidebarCollapse:hover {
+    animation: anim 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#sidebarCollapse.top:hover {
+    animation: anim2 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#sidebarCollapse {
+	overflow:hidden;
+	border-radius: 0 5px 5px 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 	font-family: kelmscottromanregular !important;
@@ -67,14 +106,10 @@ a, a:hover, a:focus {
   background:rgba(0, 0, 0, 0.60);
   }
 
-.btnlogin {
-	float: right;
-}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
 #sidebar {
-    width: 250px;
     position: fixed;
     top: 0;
     left: -250px;
@@ -138,41 +173,23 @@ a, a:hover, a:focus {
     font-size: 1.1em;
     display: block;
 }
+
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: #ac2828;
+    background: #FFF;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    color: #ac2828;
 }
 
-
-a[data-toggle="collapse"] {
-    position: relative;
-}
-
-a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
-    content: '\e259';
-    display: block;
-    position: absolute;
-    right: 20px;
-    font-family: 'Glyphicons Halflings';
-    font-size: 0.6em;
-}
-a[aria-expanded="true"]::before {
-    content: '\e260';
-}
-
-
-ul ul a {
+ul ul {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #6d7fcc;
 }
 
-ul.CTAs {
+ ul.CTAs {
     padding: 20px;
 	border-bottom: 2px solid #FFF;
 }
@@ -184,15 +201,28 @@ ul.CTAs a {
     border-radius: 5px;
     margin-bottom: 5px;
 }
+
 a.deco {
     background: #fff;
-    color: #7386D5;
+    color: #000;
 }
+
 a.article, a.article:hover {
     background: #6d7fcc !important;
     color: #fff !important;
 }
 
+.bg-danger {
+    background-color: #ac2828 !important;
+}
+
+.btn-outline-danger {
+	background-color: #ac2828 !important;
+}
+
+.text-danger {
+	    color: #ac2828 !important;
+}
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -247,8 +277,9 @@ margin-left: 2%;
 .dl {
 	margin-top: 2%;
 	width: 95%;
+
 	height: 20% !important;
-	font-size: xx-large;
+	font-size: 3vw;
 	border-radius: 10px;
 	color:white !important;
 }
@@ -270,6 +301,10 @@ font-size: xx-large;
 		border-radius: 10px;
 	margin-left: 2%;
 	width: 95% !important;
+}
+
+.discord {
+	border-radius: 10px;
 }
 
 /* Footer */
